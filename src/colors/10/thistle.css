@@ -1,4 +1,4 @@
-:root {
+[class*='thistle'] {
   --sf-c-thistle: 300 24% 80%;
   --sf-c-thistle-0: 300 24% 0%;
   --sf-c-thistle-10: 300 24% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-thistle\:100\:dark, html.dark .sf-c-txt-th
   html.var[data-theme='auto'] .sf-c-thistle\:90\:dark, html.var.auto .sf-c-thistle\:90\:dark { color: hsl(300, 24%, 90%); background: hsl(300, 24%, 10%) }
   html.var[data-theme='auto'] .sf-c-thistle\:100\:dark, html.var.auto .sf-c-thistle\:100\:dark { color: hsl(300, 24%, 90%); background: hsl(300, 24%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-thistle, html.auto .sf-c-txt-thistle { color: hsl(300, 24%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:0, html.auto .sf-c-txt-thistle\:0 { color: hsl(300, 24%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:10, html.auto .sf-c-txt-thistle\:10 { color: hsl(300, 24%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:20, html.auto .sf-c-txt-thistle\:20 { color: hsl(300, 24%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:30, html.auto .sf-c-txt-thistle\:30 { color: hsl(300, 24%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:40, html.auto .sf-c-txt-thistle\:40 { color: hsl(300, 24%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:50, html.auto .sf-c-txt-thistle\:50 { color: hsl(300, 24%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:60, html.auto .sf-c-txt-thistle\:60 { color: hsl(300, 24%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:70, html.auto .sf-c-txt-thistle\:70 { color: hsl(300, 24%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:80, html.auto .sf-c-txt-thistle\:80 { color: hsl(300, 24%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:90, html.auto .sf-c-txt-thistle\:90 { color: hsl(300, 24%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:100, html.auto .sf-c-txt-thistle\:100 { color: hsl(300, 24%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle, html.var.auto .sf-c-txt-thistle { color: hsl(300, 24%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:0, html.var.auto .sf-c-txt-thistle\:0 { color: hsl(300, 24%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:10, html.var.auto .sf-c-txt-thistle\:10 { color: hsl(300, 24%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:20, html.var.auto .sf-c-txt-thistle\:20 { color: hsl(300, 24%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:30, html.var.auto .sf-c-txt-thistle\:30 { color: hsl(300, 24%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:40, html.var.auto .sf-c-txt-thistle\:40 { color: hsl(300, 24%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:50, html.var.auto .sf-c-txt-thistle\:50 { color: hsl(300, 24%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:60, html.var.auto .sf-c-txt-thistle\:60 { color: hsl(300, 24%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:70, html.var.auto .sf-c-txt-thistle\:70 { color: hsl(300, 24%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:80, html.var.auto .sf-c-txt-thistle\:80 { color: hsl(300, 24%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:90, html.var.auto .sf-c-txt-thistle\:90 { color: hsl(300, 24%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:100, html.var.auto .sf-c-txt-thistle\:100 { color: hsl(300, 24%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:dark, html.auto .sf-c-txt-thistle\:dark { color: hsl(300, 24%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:0\:dark, html.auto .sf-c-txt-thistle\:0\:dark { color: hsl(300, 24%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:10\:dark, html.auto .sf-c-txt-thistle\:10\:dark { color: hsl(300, 24%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:20\:dark, html.auto .sf-c-txt-thistle\:20\:dark { color: hsl(300, 24%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:30\:dark, html.auto .sf-c-txt-thistle\:30\:dark { color: hsl(300, 24%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:40\:dark, html.auto .sf-c-txt-thistle\:40\:dark { color: hsl(300, 24%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:50\:dark, html.auto .sf-c-txt-thistle\:50\:dark { color: hsl(300, 24%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:60\:dark, html.auto .sf-c-txt-thistle\:60\:dark { color: hsl(300, 24%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:70\:dark, html.auto .sf-c-txt-thistle\:70\:dark { color: hsl(300, 24%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:80\:dark, html.auto .sf-c-txt-thistle\:80\:dark { color: hsl(300, 24%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:90\:dark, html.auto .sf-c-txt-thistle\:90\:dark { color: hsl(300, 24%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-thistle\:100\:dark, html.auto .sf-c-txt-thistle\:100\:dark { color: hsl(300, 24%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:dark, html.var.auto .sf-c-txt-thistle\:dark { color: hsl(300, 24%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:0\:dark, html.var.auto .sf-c-txt-thistle\:0\:dark { color: hsl(300, 24%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:10\:dark, html.var.auto .sf-c-txt-thistle\:10\:dark { color: hsl(300, 24%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:20\:dark, html.var.auto .sf-c-txt-thistle\:20\:dark { color: hsl(300, 24%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:30\:dark, html.var.auto .sf-c-txt-thistle\:30\:dark { color: hsl(300, 24%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:40\:dark, html.var.auto .sf-c-txt-thistle\:40\:dark { color: hsl(300, 24%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:50\:dark, html.var.auto .sf-c-txt-thistle\:50\:dark { color: hsl(300, 24%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:60\:dark, html.var.auto .sf-c-txt-thistle\:60\:dark { color: hsl(300, 24%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:70\:dark, html.var.auto .sf-c-txt-thistle\:70\:dark { color: hsl(300, 24%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:80\:dark, html.var.auto .sf-c-txt-thistle\:80\:dark { color: hsl(300, 24%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:90\:dark, html.var.auto .sf-c-txt-thistle\:90\:dark { color: hsl(300, 24%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-thistle\:100\:dark, html.var.auto .sf-c-txt-thistle\:100\:dark { color: hsl(300, 24%, 100%) }
 }

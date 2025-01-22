@@ -1,4 +1,4 @@
-:root {
+[class*='linen'] {
   --sf-c-linen: 30 67% 94%;
   --sf-c-linen-0: 30 67% 0%;
   --sf-c-linen-10: 30 67% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-linen\:100\:dark, html.dark .sf-c-txt-line
   html.var[data-theme='auto'] .sf-c-linen\:90\:dark, html.var.auto .sf-c-linen\:90\:dark { color: hsl(30, 67%, 90%); background: hsl(30, 67%, 10%) }
   html.var[data-theme='auto'] .sf-c-linen\:100\:dark, html.var.auto .sf-c-linen\:100\:dark { color: hsl(30, 67%, 90%); background: hsl(30, 67%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-linen, html.auto .sf-c-txt-linen { color: hsl(30, 67%, 94%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:0, html.auto .sf-c-txt-linen\:0 { color: hsl(30, 67%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:10, html.auto .sf-c-txt-linen\:10 { color: hsl(30, 67%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:20, html.auto .sf-c-txt-linen\:20 { color: hsl(30, 67%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:30, html.auto .sf-c-txt-linen\:30 { color: hsl(30, 67%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:40, html.auto .sf-c-txt-linen\:40 { color: hsl(30, 67%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:50, html.auto .sf-c-txt-linen\:50 { color: hsl(30, 67%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:60, html.auto .sf-c-txt-linen\:60 { color: hsl(30, 67%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:70, html.auto .sf-c-txt-linen\:70 { color: hsl(30, 67%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:80, html.auto .sf-c-txt-linen\:80 { color: hsl(30, 67%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:90, html.auto .sf-c-txt-linen\:90 { color: hsl(30, 67%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:100, html.auto .sf-c-txt-linen\:100 { color: hsl(30, 67%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen, html.var.auto .sf-c-txt-linen { color: hsl(30, 67%, 94%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:0, html.var.auto .sf-c-txt-linen\:0 { color: hsl(30, 67%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:10, html.var.auto .sf-c-txt-linen\:10 { color: hsl(30, 67%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:20, html.var.auto .sf-c-txt-linen\:20 { color: hsl(30, 67%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:30, html.var.auto .sf-c-txt-linen\:30 { color: hsl(30, 67%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:40, html.var.auto .sf-c-txt-linen\:40 { color: hsl(30, 67%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:50, html.var.auto .sf-c-txt-linen\:50 { color: hsl(30, 67%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:60, html.var.auto .sf-c-txt-linen\:60 { color: hsl(30, 67%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:70, html.var.auto .sf-c-txt-linen\:70 { color: hsl(30, 67%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:80, html.var.auto .sf-c-txt-linen\:80 { color: hsl(30, 67%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:90, html.var.auto .sf-c-txt-linen\:90 { color: hsl(30, 67%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:100, html.var.auto .sf-c-txt-linen\:100 { color: hsl(30, 67%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-linen\:dark, html.auto .sf-c-txt-linen\:dark { color: hsl(30, 67%, 94%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:0\:dark, html.auto .sf-c-txt-linen\:0\:dark { color: hsl(30, 67%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:10\:dark, html.auto .sf-c-txt-linen\:10\:dark { color: hsl(30, 67%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:20\:dark, html.auto .sf-c-txt-linen\:20\:dark { color: hsl(30, 67%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:30\:dark, html.auto .sf-c-txt-linen\:30\:dark { color: hsl(30, 67%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:40\:dark, html.auto .sf-c-txt-linen\:40\:dark { color: hsl(30, 67%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:50\:dark, html.auto .sf-c-txt-linen\:50\:dark { color: hsl(30, 67%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:60\:dark, html.auto .sf-c-txt-linen\:60\:dark { color: hsl(30, 67%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:70\:dark, html.auto .sf-c-txt-linen\:70\:dark { color: hsl(30, 67%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:80\:dark, html.auto .sf-c-txt-linen\:80\:dark { color: hsl(30, 67%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:90\:dark, html.auto .sf-c-txt-linen\:90\:dark { color: hsl(30, 67%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-linen\:100\:dark, html.auto .sf-c-txt-linen\:100\:dark { color: hsl(30, 67%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:dark, html.var.auto .sf-c-txt-linen\:dark { color: hsl(30, 67%, 94%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:0\:dark, html.var.auto .sf-c-txt-linen\:0\:dark { color: hsl(30, 67%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:10\:dark, html.var.auto .sf-c-txt-linen\:10\:dark { color: hsl(30, 67%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:20\:dark, html.var.auto .sf-c-txt-linen\:20\:dark { color: hsl(30, 67%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:30\:dark, html.var.auto .sf-c-txt-linen\:30\:dark { color: hsl(30, 67%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:40\:dark, html.var.auto .sf-c-txt-linen\:40\:dark { color: hsl(30, 67%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:50\:dark, html.var.auto .sf-c-txt-linen\:50\:dark { color: hsl(30, 67%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:60\:dark, html.var.auto .sf-c-txt-linen\:60\:dark { color: hsl(30, 67%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:70\:dark, html.var.auto .sf-c-txt-linen\:70\:dark { color: hsl(30, 67%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:80\:dark, html.var.auto .sf-c-txt-linen\:80\:dark { color: hsl(30, 67%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:90\:dark, html.var.auto .sf-c-txt-linen\:90\:dark { color: hsl(30, 67%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-linen\:100\:dark, html.var.auto .sf-c-txt-linen\:100\:dark { color: hsl(30, 67%, 100%) }
 }
