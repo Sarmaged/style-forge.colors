@@ -1,4 +1,4 @@
-:root {
+[class*='darkorchid'] {
   --sf-c-darkorchid: 280 61% 50%;
   --sf-c-darkorchid-0: 280 61% 0%;
   --sf-c-darkorchid-10: 280 61% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-darkorchid\:100\:dark, html.dark .sf-c-txt
   html.var[data-theme='auto'] .sf-c-darkorchid\:90\:dark, html.var.auto .sf-c-darkorchid\:90\:dark { color: hsl(280, 61%, 90%); background: hsl(280, 61%, 10%) }
   html.var[data-theme='auto'] .sf-c-darkorchid\:100\:dark, html.var.auto .sf-c-darkorchid\:100\:dark { color: hsl(280, 61%, 90%); background: hsl(280, 61%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid, html.auto .sf-c-txt-darkorchid { color: hsl(280, 61%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:0, html.auto .sf-c-txt-darkorchid\:0 { color: hsl(280, 61%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:10, html.auto .sf-c-txt-darkorchid\:10 { color: hsl(280, 61%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:20, html.auto .sf-c-txt-darkorchid\:20 { color: hsl(280, 61%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:30, html.auto .sf-c-txt-darkorchid\:30 { color: hsl(280, 61%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:40, html.auto .sf-c-txt-darkorchid\:40 { color: hsl(280, 61%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:50, html.auto .sf-c-txt-darkorchid\:50 { color: hsl(280, 61%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:60, html.auto .sf-c-txt-darkorchid\:60 { color: hsl(280, 61%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:70, html.auto .sf-c-txt-darkorchid\:70 { color: hsl(280, 61%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:80, html.auto .sf-c-txt-darkorchid\:80 { color: hsl(280, 61%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:90, html.auto .sf-c-txt-darkorchid\:90 { color: hsl(280, 61%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:100, html.auto .sf-c-txt-darkorchid\:100 { color: hsl(280, 61%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid, html.var.auto .sf-c-txt-darkorchid { color: hsl(280, 61%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:0, html.var.auto .sf-c-txt-darkorchid\:0 { color: hsl(280, 61%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:10, html.var.auto .sf-c-txt-darkorchid\:10 { color: hsl(280, 61%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:20, html.var.auto .sf-c-txt-darkorchid\:20 { color: hsl(280, 61%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:30, html.var.auto .sf-c-txt-darkorchid\:30 { color: hsl(280, 61%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:40, html.var.auto .sf-c-txt-darkorchid\:40 { color: hsl(280, 61%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:50, html.var.auto .sf-c-txt-darkorchid\:50 { color: hsl(280, 61%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:60, html.var.auto .sf-c-txt-darkorchid\:60 { color: hsl(280, 61%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:70, html.var.auto .sf-c-txt-darkorchid\:70 { color: hsl(280, 61%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:80, html.var.auto .sf-c-txt-darkorchid\:80 { color: hsl(280, 61%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:90, html.var.auto .sf-c-txt-darkorchid\:90 { color: hsl(280, 61%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:100, html.var.auto .sf-c-txt-darkorchid\:100 { color: hsl(280, 61%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:dark, html.auto .sf-c-txt-darkorchid\:dark { color: hsl(280, 61%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:0\:dark, html.auto .sf-c-txt-darkorchid\:0\:dark { color: hsl(280, 61%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:10\:dark, html.auto .sf-c-txt-darkorchid\:10\:dark { color: hsl(280, 61%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:20\:dark, html.auto .sf-c-txt-darkorchid\:20\:dark { color: hsl(280, 61%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:30\:dark, html.auto .sf-c-txt-darkorchid\:30\:dark { color: hsl(280, 61%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:40\:dark, html.auto .sf-c-txt-darkorchid\:40\:dark { color: hsl(280, 61%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:50\:dark, html.auto .sf-c-txt-darkorchid\:50\:dark { color: hsl(280, 61%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:60\:dark, html.auto .sf-c-txt-darkorchid\:60\:dark { color: hsl(280, 61%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:70\:dark, html.auto .sf-c-txt-darkorchid\:70\:dark { color: hsl(280, 61%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:80\:dark, html.auto .sf-c-txt-darkorchid\:80\:dark { color: hsl(280, 61%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:90\:dark, html.auto .sf-c-txt-darkorchid\:90\:dark { color: hsl(280, 61%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:100\:dark, html.auto .sf-c-txt-darkorchid\:100\:dark { color: hsl(280, 61%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:dark, html.var.auto .sf-c-txt-darkorchid\:dark { color: hsl(280, 61%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:0\:dark, html.var.auto .sf-c-txt-darkorchid\:0\:dark { color: hsl(280, 61%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:10\:dark, html.var.auto .sf-c-txt-darkorchid\:10\:dark { color: hsl(280, 61%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:20\:dark, html.var.auto .sf-c-txt-darkorchid\:20\:dark { color: hsl(280, 61%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:30\:dark, html.var.auto .sf-c-txt-darkorchid\:30\:dark { color: hsl(280, 61%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:40\:dark, html.var.auto .sf-c-txt-darkorchid\:40\:dark { color: hsl(280, 61%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:50\:dark, html.var.auto .sf-c-txt-darkorchid\:50\:dark { color: hsl(280, 61%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:60\:dark, html.var.auto .sf-c-txt-darkorchid\:60\:dark { color: hsl(280, 61%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:70\:dark, html.var.auto .sf-c-txt-darkorchid\:70\:dark { color: hsl(280, 61%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:80\:dark, html.var.auto .sf-c-txt-darkorchid\:80\:dark { color: hsl(280, 61%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:90\:dark, html.var.auto .sf-c-txt-darkorchid\:90\:dark { color: hsl(280, 61%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-darkorchid\:100\:dark, html.var.auto .sf-c-txt-darkorchid\:100\:dark { color: hsl(280, 61%, 100%) }
 }

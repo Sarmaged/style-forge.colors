@@ -1,4 +1,4 @@
-:root {
+[class*='gold'] {
   --sf-c-gold: 51 100% 50%;
   --sf-c-gold-0: 51 100% 0%;
   --sf-c-gold-10: 51 100% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-gold\:100\:dark, html.dark .sf-c-txt-gold\
   html.var[data-theme='auto'] .sf-c-gold\:90\:dark, html.var.auto .sf-c-gold\:90\:dark { color: hsl(51, 100%, 90%); background: hsl(51, 100%, 10%) }
   html.var[data-theme='auto'] .sf-c-gold\:100\:dark, html.var.auto .sf-c-gold\:100\:dark { color: hsl(51, 100%, 90%); background: hsl(51, 100%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-gold, html.auto .sf-c-txt-gold { color: hsl(51, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:0, html.auto .sf-c-txt-gold\:0 { color: hsl(51, 100%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:10, html.auto .sf-c-txt-gold\:10 { color: hsl(51, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:20, html.auto .sf-c-txt-gold\:20 { color: hsl(51, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:30, html.auto .sf-c-txt-gold\:30 { color: hsl(51, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:40, html.auto .sf-c-txt-gold\:40 { color: hsl(51, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:50, html.auto .sf-c-txt-gold\:50 { color: hsl(51, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:60, html.auto .sf-c-txt-gold\:60 { color: hsl(51, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:70, html.auto .sf-c-txt-gold\:70 { color: hsl(51, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:80, html.auto .sf-c-txt-gold\:80 { color: hsl(51, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:90, html.auto .sf-c-txt-gold\:90 { color: hsl(51, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:100, html.auto .sf-c-txt-gold\:100 { color: hsl(51, 100%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold, html.var.auto .sf-c-txt-gold { color: hsl(51, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:0, html.var.auto .sf-c-txt-gold\:0 { color: hsl(51, 100%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:10, html.var.auto .sf-c-txt-gold\:10 { color: hsl(51, 100%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:20, html.var.auto .sf-c-txt-gold\:20 { color: hsl(51, 100%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:30, html.var.auto .sf-c-txt-gold\:30 { color: hsl(51, 100%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:40, html.var.auto .sf-c-txt-gold\:40 { color: hsl(51, 100%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:50, html.var.auto .sf-c-txt-gold\:50 { color: hsl(51, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:60, html.var.auto .sf-c-txt-gold\:60 { color: hsl(51, 100%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:70, html.var.auto .sf-c-txt-gold\:70 { color: hsl(51, 100%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:80, html.var.auto .sf-c-txt-gold\:80 { color: hsl(51, 100%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:90, html.var.auto .sf-c-txt-gold\:90 { color: hsl(51, 100%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:100, html.var.auto .sf-c-txt-gold\:100 { color: hsl(51, 100%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-gold\:dark, html.auto .sf-c-txt-gold\:dark { color: hsl(51, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:0\:dark, html.auto .sf-c-txt-gold\:0\:dark { color: hsl(51, 100%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:10\:dark, html.auto .sf-c-txt-gold\:10\:dark { color: hsl(51, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:20\:dark, html.auto .sf-c-txt-gold\:20\:dark { color: hsl(51, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:30\:dark, html.auto .sf-c-txt-gold\:30\:dark { color: hsl(51, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:40\:dark, html.auto .sf-c-txt-gold\:40\:dark { color: hsl(51, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:50\:dark, html.auto .sf-c-txt-gold\:50\:dark { color: hsl(51, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:60\:dark, html.auto .sf-c-txt-gold\:60\:dark { color: hsl(51, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:70\:dark, html.auto .sf-c-txt-gold\:70\:dark { color: hsl(51, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:80\:dark, html.auto .sf-c-txt-gold\:80\:dark { color: hsl(51, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:90\:dark, html.auto .sf-c-txt-gold\:90\:dark { color: hsl(51, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-gold\:100\:dark, html.auto .sf-c-txt-gold\:100\:dark { color: hsl(51, 100%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:dark, html.var.auto .sf-c-txt-gold\:dark { color: hsl(51, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:0\:dark, html.var.auto .sf-c-txt-gold\:0\:dark { color: hsl(51, 100%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:10\:dark, html.var.auto .sf-c-txt-gold\:10\:dark { color: hsl(51, 100%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:20\:dark, html.var.auto .sf-c-txt-gold\:20\:dark { color: hsl(51, 100%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:30\:dark, html.var.auto .sf-c-txt-gold\:30\:dark { color: hsl(51, 100%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:40\:dark, html.var.auto .sf-c-txt-gold\:40\:dark { color: hsl(51, 100%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:50\:dark, html.var.auto .sf-c-txt-gold\:50\:dark { color: hsl(51, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:60\:dark, html.var.auto .sf-c-txt-gold\:60\:dark { color: hsl(51, 100%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:70\:dark, html.var.auto .sf-c-txt-gold\:70\:dark { color: hsl(51, 100%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:80\:dark, html.var.auto .sf-c-txt-gold\:80\:dark { color: hsl(51, 100%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:90\:dark, html.var.auto .sf-c-txt-gold\:90\:dark { color: hsl(51, 100%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-gold\:100\:dark, html.var.auto .sf-c-txt-gold\:100\:dark { color: hsl(51, 100%, 100%) }
 }

@@ -1,4 +1,4 @@
-:root {
+[class*='lavender'] {
   --sf-c-lavender: 240 67% 94%;
   --sf-c-lavender-0: 240 67% 0%;
   --sf-c-lavender-10: 240 67% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-lavender\:100\:dark, html.dark .sf-c-txt-l
   html.var[data-theme='auto'] .sf-c-lavender\:90\:dark, html.var.auto .sf-c-lavender\:90\:dark { color: hsl(240, 67%, 90%); background: hsl(240, 67%, 10%) }
   html.var[data-theme='auto'] .sf-c-lavender\:100\:dark, html.var.auto .sf-c-lavender\:100\:dark { color: hsl(240, 67%, 90%); background: hsl(240, 67%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-lavender, html.auto .sf-c-txt-lavender { color: hsl(240, 67%, 94%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:0, html.auto .sf-c-txt-lavender\:0 { color: hsl(240, 67%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:10, html.auto .sf-c-txt-lavender\:10 { color: hsl(240, 67%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:20, html.auto .sf-c-txt-lavender\:20 { color: hsl(240, 67%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:30, html.auto .sf-c-txt-lavender\:30 { color: hsl(240, 67%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:40, html.auto .sf-c-txt-lavender\:40 { color: hsl(240, 67%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:50, html.auto .sf-c-txt-lavender\:50 { color: hsl(240, 67%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:60, html.auto .sf-c-txt-lavender\:60 { color: hsl(240, 67%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:70, html.auto .sf-c-txt-lavender\:70 { color: hsl(240, 67%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:80, html.auto .sf-c-txt-lavender\:80 { color: hsl(240, 67%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:90, html.auto .sf-c-txt-lavender\:90 { color: hsl(240, 67%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:100, html.auto .sf-c-txt-lavender\:100 { color: hsl(240, 67%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender, html.var.auto .sf-c-txt-lavender { color: hsl(240, 67%, 94%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:0, html.var.auto .sf-c-txt-lavender\:0 { color: hsl(240, 67%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:10, html.var.auto .sf-c-txt-lavender\:10 { color: hsl(240, 67%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:20, html.var.auto .sf-c-txt-lavender\:20 { color: hsl(240, 67%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:30, html.var.auto .sf-c-txt-lavender\:30 { color: hsl(240, 67%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:40, html.var.auto .sf-c-txt-lavender\:40 { color: hsl(240, 67%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:50, html.var.auto .sf-c-txt-lavender\:50 { color: hsl(240, 67%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:60, html.var.auto .sf-c-txt-lavender\:60 { color: hsl(240, 67%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:70, html.var.auto .sf-c-txt-lavender\:70 { color: hsl(240, 67%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:80, html.var.auto .sf-c-txt-lavender\:80 { color: hsl(240, 67%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:90, html.var.auto .sf-c-txt-lavender\:90 { color: hsl(240, 67%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:100, html.var.auto .sf-c-txt-lavender\:100 { color: hsl(240, 67%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:dark, html.auto .sf-c-txt-lavender\:dark { color: hsl(240, 67%, 94%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:0\:dark, html.auto .sf-c-txt-lavender\:0\:dark { color: hsl(240, 67%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:10\:dark, html.auto .sf-c-txt-lavender\:10\:dark { color: hsl(240, 67%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:20\:dark, html.auto .sf-c-txt-lavender\:20\:dark { color: hsl(240, 67%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:30\:dark, html.auto .sf-c-txt-lavender\:30\:dark { color: hsl(240, 67%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:40\:dark, html.auto .sf-c-txt-lavender\:40\:dark { color: hsl(240, 67%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:50\:dark, html.auto .sf-c-txt-lavender\:50\:dark { color: hsl(240, 67%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:60\:dark, html.auto .sf-c-txt-lavender\:60\:dark { color: hsl(240, 67%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:70\:dark, html.auto .sf-c-txt-lavender\:70\:dark { color: hsl(240, 67%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:80\:dark, html.auto .sf-c-txt-lavender\:80\:dark { color: hsl(240, 67%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:90\:dark, html.auto .sf-c-txt-lavender\:90\:dark { color: hsl(240, 67%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-lavender\:100\:dark, html.auto .sf-c-txt-lavender\:100\:dark { color: hsl(240, 67%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:dark, html.var.auto .sf-c-txt-lavender\:dark { color: hsl(240, 67%, 94%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:0\:dark, html.var.auto .sf-c-txt-lavender\:0\:dark { color: hsl(240, 67%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:10\:dark, html.var.auto .sf-c-txt-lavender\:10\:dark { color: hsl(240, 67%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:20\:dark, html.var.auto .sf-c-txt-lavender\:20\:dark { color: hsl(240, 67%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:30\:dark, html.var.auto .sf-c-txt-lavender\:30\:dark { color: hsl(240, 67%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:40\:dark, html.var.auto .sf-c-txt-lavender\:40\:dark { color: hsl(240, 67%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:50\:dark, html.var.auto .sf-c-txt-lavender\:50\:dark { color: hsl(240, 67%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:60\:dark, html.var.auto .sf-c-txt-lavender\:60\:dark { color: hsl(240, 67%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:70\:dark, html.var.auto .sf-c-txt-lavender\:70\:dark { color: hsl(240, 67%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:80\:dark, html.var.auto .sf-c-txt-lavender\:80\:dark { color: hsl(240, 67%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:90\:dark, html.var.auto .sf-c-txt-lavender\:90\:dark { color: hsl(240, 67%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-lavender\:100\:dark, html.var.auto .sf-c-txt-lavender\:100\:dark { color: hsl(240, 67%, 100%) }
 }

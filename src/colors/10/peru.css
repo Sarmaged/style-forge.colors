@@ -1,4 +1,4 @@
-:root {
+[class*='peru'] {
   --sf-c-peru: 30 59% 53%;
   --sf-c-peru-0: 30 59% 0%;
   --sf-c-peru-10: 30 59% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-peru\:100\:dark, html.dark .sf-c-txt-peru\
   html.var[data-theme='auto'] .sf-c-peru\:90\:dark, html.var.auto .sf-c-peru\:90\:dark { color: hsl(30, 59%, 90%); background: hsl(30, 59%, 10%) }
   html.var[data-theme='auto'] .sf-c-peru\:100\:dark, html.var.auto .sf-c-peru\:100\:dark { color: hsl(30, 59%, 90%); background: hsl(30, 59%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-peru, html.auto .sf-c-txt-peru { color: hsl(30, 59%, 53%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:0, html.auto .sf-c-txt-peru\:0 { color: hsl(30, 59%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:10, html.auto .sf-c-txt-peru\:10 { color: hsl(30, 59%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:20, html.auto .sf-c-txt-peru\:20 { color: hsl(30, 59%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:30, html.auto .sf-c-txt-peru\:30 { color: hsl(30, 59%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:40, html.auto .sf-c-txt-peru\:40 { color: hsl(30, 59%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:50, html.auto .sf-c-txt-peru\:50 { color: hsl(30, 59%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:60, html.auto .sf-c-txt-peru\:60 { color: hsl(30, 59%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:70, html.auto .sf-c-txt-peru\:70 { color: hsl(30, 59%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:80, html.auto .sf-c-txt-peru\:80 { color: hsl(30, 59%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:90, html.auto .sf-c-txt-peru\:90 { color: hsl(30, 59%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:100, html.auto .sf-c-txt-peru\:100 { color: hsl(30, 59%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru, html.var.auto .sf-c-txt-peru { color: hsl(30, 59%, 53%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:0, html.var.auto .sf-c-txt-peru\:0 { color: hsl(30, 59%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:10, html.var.auto .sf-c-txt-peru\:10 { color: hsl(30, 59%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:20, html.var.auto .sf-c-txt-peru\:20 { color: hsl(30, 59%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:30, html.var.auto .sf-c-txt-peru\:30 { color: hsl(30, 59%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:40, html.var.auto .sf-c-txt-peru\:40 { color: hsl(30, 59%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:50, html.var.auto .sf-c-txt-peru\:50 { color: hsl(30, 59%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:60, html.var.auto .sf-c-txt-peru\:60 { color: hsl(30, 59%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:70, html.var.auto .sf-c-txt-peru\:70 { color: hsl(30, 59%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:80, html.var.auto .sf-c-txt-peru\:80 { color: hsl(30, 59%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:90, html.var.auto .sf-c-txt-peru\:90 { color: hsl(30, 59%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:100, html.var.auto .sf-c-txt-peru\:100 { color: hsl(30, 59%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-peru\:dark, html.auto .sf-c-txt-peru\:dark { color: hsl(30, 59%, 53%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:0\:dark, html.auto .sf-c-txt-peru\:0\:dark { color: hsl(30, 59%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:10\:dark, html.auto .sf-c-txt-peru\:10\:dark { color: hsl(30, 59%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:20\:dark, html.auto .sf-c-txt-peru\:20\:dark { color: hsl(30, 59%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:30\:dark, html.auto .sf-c-txt-peru\:30\:dark { color: hsl(30, 59%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:40\:dark, html.auto .sf-c-txt-peru\:40\:dark { color: hsl(30, 59%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:50\:dark, html.auto .sf-c-txt-peru\:50\:dark { color: hsl(30, 59%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:60\:dark, html.auto .sf-c-txt-peru\:60\:dark { color: hsl(30, 59%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:70\:dark, html.auto .sf-c-txt-peru\:70\:dark { color: hsl(30, 59%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:80\:dark, html.auto .sf-c-txt-peru\:80\:dark { color: hsl(30, 59%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:90\:dark, html.auto .sf-c-txt-peru\:90\:dark { color: hsl(30, 59%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-peru\:100\:dark, html.auto .sf-c-txt-peru\:100\:dark { color: hsl(30, 59%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:dark, html.var.auto .sf-c-txt-peru\:dark { color: hsl(30, 59%, 53%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:0\:dark, html.var.auto .sf-c-txt-peru\:0\:dark { color: hsl(30, 59%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:10\:dark, html.var.auto .sf-c-txt-peru\:10\:dark { color: hsl(30, 59%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:20\:dark, html.var.auto .sf-c-txt-peru\:20\:dark { color: hsl(30, 59%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:30\:dark, html.var.auto .sf-c-txt-peru\:30\:dark { color: hsl(30, 59%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:40\:dark, html.var.auto .sf-c-txt-peru\:40\:dark { color: hsl(30, 59%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:50\:dark, html.var.auto .sf-c-txt-peru\:50\:dark { color: hsl(30, 59%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:60\:dark, html.var.auto .sf-c-txt-peru\:60\:dark { color: hsl(30, 59%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:70\:dark, html.var.auto .sf-c-txt-peru\:70\:dark { color: hsl(30, 59%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:80\:dark, html.var.auto .sf-c-txt-peru\:80\:dark { color: hsl(30, 59%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:90\:dark, html.var.auto .sf-c-txt-peru\:90\:dark { color: hsl(30, 59%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-peru\:100\:dark, html.var.auto .sf-c-txt-peru\:100\:dark { color: hsl(30, 59%, 100%) }
 }

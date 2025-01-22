@@ -1,4 +1,4 @@
-:root {
+[class*='sienna'] {
   --sf-c-sienna: 19 56% 40%;
   --sf-c-sienna-0: 19 56% 0%;
   --sf-c-sienna-10: 19 56% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-sienna\:100\:dark, html.dark .sf-c-txt-sie
   html.var[data-theme='auto'] .sf-c-sienna\:90\:dark, html.var.auto .sf-c-sienna\:90\:dark { color: hsl(19, 56%, 90%); background: hsl(19, 56%, 10%) }
   html.var[data-theme='auto'] .sf-c-sienna\:100\:dark, html.var.auto .sf-c-sienna\:100\:dark { color: hsl(19, 56%, 90%); background: hsl(19, 56%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-sienna, html.auto .sf-c-txt-sienna { color: hsl(19, 56%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:0, html.auto .sf-c-txt-sienna\:0 { color: hsl(19, 56%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:10, html.auto .sf-c-txt-sienna\:10 { color: hsl(19, 56%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:20, html.auto .sf-c-txt-sienna\:20 { color: hsl(19, 56%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:30, html.auto .sf-c-txt-sienna\:30 { color: hsl(19, 56%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:40, html.auto .sf-c-txt-sienna\:40 { color: hsl(19, 56%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:50, html.auto .sf-c-txt-sienna\:50 { color: hsl(19, 56%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:60, html.auto .sf-c-txt-sienna\:60 { color: hsl(19, 56%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:70, html.auto .sf-c-txt-sienna\:70 { color: hsl(19, 56%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:80, html.auto .sf-c-txt-sienna\:80 { color: hsl(19, 56%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:90, html.auto .sf-c-txt-sienna\:90 { color: hsl(19, 56%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:100, html.auto .sf-c-txt-sienna\:100 { color: hsl(19, 56%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna, html.var.auto .sf-c-txt-sienna { color: hsl(19, 56%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:0, html.var.auto .sf-c-txt-sienna\:0 { color: hsl(19, 56%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:10, html.var.auto .sf-c-txt-sienna\:10 { color: hsl(19, 56%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:20, html.var.auto .sf-c-txt-sienna\:20 { color: hsl(19, 56%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:30, html.var.auto .sf-c-txt-sienna\:30 { color: hsl(19, 56%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:40, html.var.auto .sf-c-txt-sienna\:40 { color: hsl(19, 56%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:50, html.var.auto .sf-c-txt-sienna\:50 { color: hsl(19, 56%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:60, html.var.auto .sf-c-txt-sienna\:60 { color: hsl(19, 56%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:70, html.var.auto .sf-c-txt-sienna\:70 { color: hsl(19, 56%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:80, html.var.auto .sf-c-txt-sienna\:80 { color: hsl(19, 56%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:90, html.var.auto .sf-c-txt-sienna\:90 { color: hsl(19, 56%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:100, html.var.auto .sf-c-txt-sienna\:100 { color: hsl(19, 56%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:dark, html.auto .sf-c-txt-sienna\:dark { color: hsl(19, 56%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:0\:dark, html.auto .sf-c-txt-sienna\:0\:dark { color: hsl(19, 56%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:10\:dark, html.auto .sf-c-txt-sienna\:10\:dark { color: hsl(19, 56%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:20\:dark, html.auto .sf-c-txt-sienna\:20\:dark { color: hsl(19, 56%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:30\:dark, html.auto .sf-c-txt-sienna\:30\:dark { color: hsl(19, 56%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:40\:dark, html.auto .sf-c-txt-sienna\:40\:dark { color: hsl(19, 56%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:50\:dark, html.auto .sf-c-txt-sienna\:50\:dark { color: hsl(19, 56%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:60\:dark, html.auto .sf-c-txt-sienna\:60\:dark { color: hsl(19, 56%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:70\:dark, html.auto .sf-c-txt-sienna\:70\:dark { color: hsl(19, 56%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:80\:dark, html.auto .sf-c-txt-sienna\:80\:dark { color: hsl(19, 56%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:90\:dark, html.auto .sf-c-txt-sienna\:90\:dark { color: hsl(19, 56%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-sienna\:100\:dark, html.auto .sf-c-txt-sienna\:100\:dark { color: hsl(19, 56%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:dark, html.var.auto .sf-c-txt-sienna\:dark { color: hsl(19, 56%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:0\:dark, html.var.auto .sf-c-txt-sienna\:0\:dark { color: hsl(19, 56%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:10\:dark, html.var.auto .sf-c-txt-sienna\:10\:dark { color: hsl(19, 56%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:20\:dark, html.var.auto .sf-c-txt-sienna\:20\:dark { color: hsl(19, 56%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:30\:dark, html.var.auto .sf-c-txt-sienna\:30\:dark { color: hsl(19, 56%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:40\:dark, html.var.auto .sf-c-txt-sienna\:40\:dark { color: hsl(19, 56%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:50\:dark, html.var.auto .sf-c-txt-sienna\:50\:dark { color: hsl(19, 56%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:60\:dark, html.var.auto .sf-c-txt-sienna\:60\:dark { color: hsl(19, 56%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:70\:dark, html.var.auto .sf-c-txt-sienna\:70\:dark { color: hsl(19, 56%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:80\:dark, html.var.auto .sf-c-txt-sienna\:80\:dark { color: hsl(19, 56%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:90\:dark, html.var.auto .sf-c-txt-sienna\:90\:dark { color: hsl(19, 56%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-sienna\:100\:dark, html.var.auto .sf-c-txt-sienna\:100\:dark { color: hsl(19, 56%, 100%) }
 }

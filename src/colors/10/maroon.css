@@ -1,4 +1,4 @@
-:root {
+[class*='maroon'] {
   --sf-c-maroon: 0 100% 25%;
   --sf-c-maroon-0: 0 100% 0%;
   --sf-c-maroon-10: 0 100% 10%;
@@ -287,29 +287,29 @@ html.var[data-theme='dark'] .sf-c-txt-maroon\:100\:dark, html.dark .sf-c-txt-mar
   html.var[data-theme='auto'] .sf-c-maroon\:90\:dark, html.var.auto .sf-c-maroon\:90\:dark { color: hsl(0, 100%, 90%); background: hsl(0, 100%, 10%) }
   html.var[data-theme='auto'] .sf-c-maroon\:100\:dark, html.var.auto .sf-c-maroon\:100\:dark { color: hsl(0, 100%, 90%); background: hsl(0, 100%, 0%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-maroon, html.auto .sf-c-txt-maroon { color: hsl(0, 100%, 25%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:0, html.auto .sf-c-txt-maroon\:0 { color: hsl(0, 100%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:10, html.auto .sf-c-txt-maroon\:10 { color: hsl(0, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:20, html.auto .sf-c-txt-maroon\:20 { color: hsl(0, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:30, html.auto .sf-c-txt-maroon\:30 { color: hsl(0, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:40, html.auto .sf-c-txt-maroon\:40 { color: hsl(0, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:50, html.auto .sf-c-txt-maroon\:50 { color: hsl(0, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:60, html.auto .sf-c-txt-maroon\:60 { color: hsl(0, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:70, html.auto .sf-c-txt-maroon\:70 { color: hsl(0, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:80, html.auto .sf-c-txt-maroon\:80 { color: hsl(0, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:90, html.auto .sf-c-txt-maroon\:90 { color: hsl(0, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:100, html.auto .sf-c-txt-maroon\:100 { color: hsl(0, 100%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon, html.var.auto .sf-c-txt-maroon { color: hsl(0, 100%, 25%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:0, html.var.auto .sf-c-txt-maroon\:0 { color: hsl(0, 100%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:10, html.var.auto .sf-c-txt-maroon\:10 { color: hsl(0, 100%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:20, html.var.auto .sf-c-txt-maroon\:20 { color: hsl(0, 100%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:30, html.var.auto .sf-c-txt-maroon\:30 { color: hsl(0, 100%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:40, html.var.auto .sf-c-txt-maroon\:40 { color: hsl(0, 100%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:50, html.var.auto .sf-c-txt-maroon\:50 { color: hsl(0, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:60, html.var.auto .sf-c-txt-maroon\:60 { color: hsl(0, 100%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:70, html.var.auto .sf-c-txt-maroon\:70 { color: hsl(0, 100%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:80, html.var.auto .sf-c-txt-maroon\:80 { color: hsl(0, 100%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:90, html.var.auto .sf-c-txt-maroon\:90 { color: hsl(0, 100%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:100, html.var.auto .sf-c-txt-maroon\:100 { color: hsl(0, 100%, 100%) }
 
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:dark, html.auto .sf-c-txt-maroon\:dark { color: hsl(0, 100%, 25%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:0\:dark, html.auto .sf-c-txt-maroon\:0\:dark { color: hsl(0, 100%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:10\:dark, html.auto .sf-c-txt-maroon\:10\:dark { color: hsl(0, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:20\:dark, html.auto .sf-c-txt-maroon\:20\:dark { color: hsl(0, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:30\:dark, html.auto .sf-c-txt-maroon\:30\:dark { color: hsl(0, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:40\:dark, html.auto .sf-c-txt-maroon\:40\:dark { color: hsl(0, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:50\:dark, html.auto .sf-c-txt-maroon\:50\:dark { color: hsl(0, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:60\:dark, html.auto .sf-c-txt-maroon\:60\:dark { color: hsl(0, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:70\:dark, html.auto .sf-c-txt-maroon\:70\:dark { color: hsl(0, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:80\:dark, html.auto .sf-c-txt-maroon\:80\:dark { color: hsl(0, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:90\:dark, html.auto .sf-c-txt-maroon\:90\:dark { color: hsl(0, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-maroon\:100\:dark, html.auto .sf-c-txt-maroon\:100\:dark { color: hsl(0, 100%, 100%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:dark, html.var.auto .sf-c-txt-maroon\:dark { color: hsl(0, 100%, 25%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:0\:dark, html.var.auto .sf-c-txt-maroon\:0\:dark { color: hsl(0, 100%, 0%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:10\:dark, html.var.auto .sf-c-txt-maroon\:10\:dark { color: hsl(0, 100%, 10%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:20\:dark, html.var.auto .sf-c-txt-maroon\:20\:dark { color: hsl(0, 100%, 20%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:30\:dark, html.var.auto .sf-c-txt-maroon\:30\:dark { color: hsl(0, 100%, 30%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:40\:dark, html.var.auto .sf-c-txt-maroon\:40\:dark { color: hsl(0, 100%, 40%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:50\:dark, html.var.auto .sf-c-txt-maroon\:50\:dark { color: hsl(0, 100%, 50%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:60\:dark, html.var.auto .sf-c-txt-maroon\:60\:dark { color: hsl(0, 100%, 60%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:70\:dark, html.var.auto .sf-c-txt-maroon\:70\:dark { color: hsl(0, 100%, 70%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:80\:dark, html.var.auto .sf-c-txt-maroon\:80\:dark { color: hsl(0, 100%, 80%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:90\:dark, html.var.auto .sf-c-txt-maroon\:90\:dark { color: hsl(0, 100%, 90%) }
+  html.var[data-theme='auto'] .sf-c-txt-maroon\:100\:dark, html.var.auto .sf-c-txt-maroon\:100\:dark { color: hsl(0, 100%, 100%) }
 }
