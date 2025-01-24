@@ -1,4 +1,4 @@
-[class*='springgreen'] {
+.sf-var-springgreen {
   --sf-c-springgreen: 150 100% 50%;
   --sf-c-springgreen-0: 150 100% 0%;
   --sf-c-springgreen-10: 150 100% 10%;
@@ -11,305 +11,137 @@
   --sf-c-springgreen-80: 150 100% 80%;
   --sf-c-springgreen-90: 150 100% 90%;
   --sf-c-springgreen-100: 150 100% 100%;
-
-  --sf-c-txt-springgreen: var(--sf-c-springgreen);
-  --sf-c-txt-springgreen-0: var(--sf-c-springgreen-0);
-  --sf-c-txt-springgreen-10: var(--sf-c-springgreen-10);
-  --sf-c-txt-springgreen-20: var(--sf-c-springgreen-20);
-  --sf-c-txt-springgreen-30: var(--sf-c-springgreen-30);
-  --sf-c-txt-springgreen-40: var(--sf-c-springgreen-40);
-  --sf-c-txt-springgreen-50: var(--sf-c-springgreen-50);
-  --sf-c-txt-springgreen-60: var(--sf-c-springgreen-60);
-  --sf-c-txt-springgreen-70: var(--sf-c-springgreen-70);
-  --sf-c-txt-springgreen-80: var(--sf-c-springgreen-80);
-  --sf-c-txt-springgreen-90: var(--sf-c-springgreen-90);
-  --sf-c-txt-springgreen-100: var(--sf-c-springgreen-100);
-
-  --sf-dark-c-springgreen: 150 100% 50%;
-  --sf-dark-c-springgreen-0: 150 100% 0%;
-  --sf-dark-c-springgreen-10: 150 100% 10%;
-  --sf-dark-c-springgreen-20: 150 100% 20%;
-  --sf-dark-c-springgreen-30: 150 100% 30%;
-  --sf-dark-c-springgreen-40: 150 100% 40%;
-  --sf-dark-c-springgreen-50: 150 100% 50%;
-  --sf-dark-c-springgreen-60: 150 100% 60%;
-  --sf-dark-c-springgreen-70: 150 100% 70%;
-  --sf-dark-c-springgreen-80: 150 100% 80%;
-  --sf-dark-c-springgreen-90: 150 100% 90%;
-  --sf-dark-c-springgreen-100: 150 100% 100%;
-
-  --sf-dark-c-txt-springgreen: var(--sf-dark-c-springgreen);
-  --sf-dark-c-txt-springgreen-0: var(--sf-dark-c-springgreen-0);
-  --sf-dark-c-txt-springgreen-10: var(--sf-dark-c-springgreen-10);
-  --sf-dark-c-txt-springgreen-20: var(--sf-dark-c-springgreen-20);
-  --sf-dark-c-txt-springgreen-30: var(--sf-dark-c-springgreen-30);
-  --sf-dark-c-txt-springgreen-40: var(--sf-dark-c-springgreen-40);
-  --sf-dark-c-txt-springgreen-50: var(--sf-dark-c-springgreen-50);
-  --sf-dark-c-txt-springgreen-60: var(--sf-dark-c-springgreen-60);
-  --sf-dark-c-txt-springgreen-70: var(--sf-dark-c-springgreen-70);
-  --sf-dark-c-txt-springgreen-80: var(--sf-dark-c-springgreen-80);
-  --sf-dark-c-txt-springgreen-90: var(--sf-dark-c-springgreen-90);
-  --sf-dark-c-txt-springgreen-100: var(--sf-dark-c-springgreen-100);
 }
 
-.sf-c-springgreen { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen)) }
-.sf-c-springgreen\:0 { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-0)) }
-.sf-c-springgreen\:10 { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-10)) }
-.sf-c-springgreen\:20 { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-20)) }
-.sf-c-springgreen\:30 { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-30)) }
-.sf-c-springgreen\:40 { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-40)) }
-.sf-c-springgreen\:50 { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-50)) }
-.sf-c-springgreen\:60 { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-60)) }
-.sf-c-springgreen\:70 { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-70)) }
-.sf-c-springgreen\:80 { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-80)) }
-.sf-c-springgreen\:90 { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-90)) }
-.sf-c-springgreen\:100 { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-100)) }
+.sf-c-springgreen, .sf-c-springgreen\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+.sf-c-springgreen\:0, .sf-c-springgreen\:0\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
+.sf-c-springgreen\:10, .sf-c-springgreen\:10\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
+.sf-c-springgreen\:20, .sf-c-springgreen\:20\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
+.sf-c-springgreen\:30, .sf-c-springgreen\:30\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 30%) }
+.sf-c-springgreen\:40, .sf-c-springgreen\:40\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
+.sf-c-springgreen\:50, .sf-c-springgreen\:50\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+.sf-c-springgreen\:60, .sf-c-springgreen\:60\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
+.sf-c-springgreen\:70, .sf-c-springgreen\:70\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
+.sf-c-springgreen\:80, .sf-c-springgreen\:80\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
+.sf-c-springgreen\:90, .sf-c-springgreen\:90\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
+.sf-c-springgreen\:100, .sf-c-springgreen\:100\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 100%) }
 
-html.var .sf-c-springgreen { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-html.var .sf-c-springgreen\:0 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
-html.var .sf-c-springgreen\:10 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
-html.var .sf-c-springgreen\:20 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
-html.var .sf-c-springgreen\:30 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 30%) }
-html.var .sf-c-springgreen\:40 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 40%) }
-html.var .sf-c-springgreen\:50 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-html.var .sf-c-springgreen\:60 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
-html.var .sf-c-springgreen\:70 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
-html.var .sf-c-springgreen\:80 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
-html.var .sf-c-springgreen\:90 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
-html.var .sf-c-springgreen\:100 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 100%) }
+.sf-c-txt-springgreen { color: hsl(150, 100%, 50%) }
+.sf-c-txt-springgreen\:st { color: hsl(150, 100%, 50%) }
+.sf-c-txt-springgreen\:0, .sf-c-txt-springgreen\:0\:st { color: hsl(150, 100%, 0%) }
+.sf-c-txt-springgreen\:10, .sf-c-txt-springgreen\:10\:st { color: hsl(150, 100%, 10%) }
+.sf-c-txt-springgreen\:20, .sf-c-txt-springgreen\:20\:st { color: hsl(150, 100%, 20%) }
+.sf-c-txt-springgreen\:30, .sf-c-txt-springgreen\:30\:st { color: hsl(150, 100%, 30%) }
+.sf-c-txt-springgreen\:40, .sf-c-txt-springgreen\:40\:st { color: hsl(150, 100%, 40%) }
+.sf-c-txt-springgreen\:50, .sf-c-txt-springgreen\:50\:st { color: hsl(150, 100%, 50%) }
+.sf-c-txt-springgreen\:60, .sf-c-txt-springgreen\:60\:st { color: hsl(150, 100%, 60%) }
+.sf-c-txt-springgreen\:70, .sf-c-txt-springgreen\:70\:st { color: hsl(150, 100%, 70%) }
+.sf-c-txt-springgreen\:80, .sf-c-txt-springgreen\:80\:st { color: hsl(150, 100%, 80%) }
+.sf-c-txt-springgreen\:90, .sf-c-txt-springgreen\:90\:st { color: hsl(150, 100%, 90%) }
+.sf-c-txt-springgreen\:100, .sf-c-txt-springgreen\:100\:st { color: hsl(150, 100%, 100%) }
 
-.sf-c-txt-springgreen { color: hsl(var(--sf-dark-c-txt-springgreen)) }
-.sf-c-txt-springgreen\:0 { color: hsl(var(--sf-dark-c-txt-springgreen-100)) }
-.sf-c-txt-springgreen\:10 { color: hsl(var(--sf-dark-c-txt-springgreen-90)) }
-.sf-c-txt-springgreen\:20 { color: hsl(var(--sf-dark-c-txt-springgreen-80)) }
-.sf-c-txt-springgreen\:30 { color: hsl(var(--sf-dark-c-txt-springgreen-70)) }
-.sf-c-txt-springgreen\:40 { color: hsl(var(--sf-dark-c-txt-springgreen-60)) }
-.sf-c-txt-springgreen\:50 { color: hsl(var(--sf-dark-c-txt-springgreen-50)) }
-.sf-c-txt-springgreen\:60 { color: hsl(var(--sf-dark-c-txt-springgreen-40)) }
-.sf-c-txt-springgreen\:70 { color: hsl(var(--sf-dark-c-txt-springgreen-30)) }
-.sf-c-txt-springgreen\:80 { color: hsl(var(--sf-dark-c-txt-springgreen-20)) }
-.sf-c-txt-springgreen\:90 { color: hsl(var(--sf-dark-c-txt-springgreen-10)) }
-.sf-c-txt-springgreen\:100 { color: hsl(var(--sf-dark-c-txt-springgreen-0)) }
+html[data-theme='dark'] .sf-c-springgreen, html.dark .sf-c-springgreen { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-springgreen\:0, html.dark .sf-c-springgreen\:0 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 100%) }
+html[data-theme='dark'] .sf-c-springgreen\:10, html.dark .sf-c-springgreen\:10 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
+html[data-theme='dark'] .sf-c-springgreen\:20, html.dark .sf-c-springgreen\:20 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
+html[data-theme='dark'] .sf-c-springgreen\:30, html.dark .sf-c-springgreen\:30 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
+html[data-theme='dark'] .sf-c-springgreen\:40, html.dark .sf-c-springgreen\:40 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
+html[data-theme='dark'] .sf-c-springgreen\:50, html.dark .sf-c-springgreen\:50 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-springgreen\:60, html.dark .sf-c-springgreen\:60 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
+html[data-theme='dark'] .sf-c-springgreen\:70, html.dark .sf-c-springgreen\:70 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 30%) }
+html[data-theme='dark'] .sf-c-springgreen\:80, html.dark .sf-c-springgreen\:80 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
+html[data-theme='dark'] .sf-c-springgreen\:90, html.dark .sf-c-springgreen\:90 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
+html[data-theme='dark'] .sf-c-springgreen\:100, html.dark .sf-c-springgreen\:100 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
 
-html.var .sf-c-txt-springgreen { color: hsl(150, 100%, 50%) }
-html.var .sf-c-txt-springgreen\:0 { color: hsl(150, 100%, 100%) }
-html.var .sf-c-txt-springgreen\:10 { color: hsl(150, 100%, 90%) }
-html.var .sf-c-txt-springgreen\:20 { color: hsl(150, 100%, 80%) }
-html.var .sf-c-txt-springgreen\:30 { color: hsl(150, 100%, 70%) }
-html.var .sf-c-txt-springgreen\:40 { color: hsl(150, 100%, 60%) }
-html.var .sf-c-txt-springgreen\:50 { color: hsl(150, 100%, 50%) }
-html.var .sf-c-txt-springgreen\:60 { color: hsl(150, 100%, 40%) }
-html.var .sf-c-txt-springgreen\:70 { color: hsl(150, 100%, 30%) }
-html.var .sf-c-txt-springgreen\:80 { color: hsl(150, 100%, 20%) }
-html.var .sf-c-txt-springgreen\:90 { color: hsl(150, 100%, 10%) }
-html.var .sf-c-txt-springgreen\:100 { color: hsl(150, 100%, 0%) }
+html[data-theme='dark'] .sf-c-springgreen\:st, html.dark .sf-c-springgreen\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-springgreen\:0\:st, html.dark .sf-c-springgreen\:0\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
+html[data-theme='dark'] .sf-c-springgreen\:10\:st, html.dark .sf-c-springgreen\:10\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
+html[data-theme='dark'] .sf-c-springgreen\:20\:st, html.dark .sf-c-springgreen\:20\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
+html[data-theme='dark'] .sf-c-springgreen\:30\:st, html.dark .sf-c-springgreen\:30\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 30%) }
+html[data-theme='dark'] .sf-c-springgreen\:40\:st, html.dark .sf-c-springgreen\:40\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
+html[data-theme='dark'] .sf-c-springgreen\:50\:st, html.dark .sf-c-springgreen\:50\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-springgreen\:60\:st, html.dark .sf-c-springgreen\:60\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
+html[data-theme='dark'] .sf-c-springgreen\:70\:st, html.dark .sf-c-springgreen\:70\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
+html[data-theme='dark'] .sf-c-springgreen\:80\:st, html.dark .sf-c-springgreen\:80\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
+html[data-theme='dark'] .sf-c-springgreen\:90\:st, html.dark .sf-c-springgreen\:90\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
+html[data-theme='dark'] .sf-c-springgreen\:100\:st, html.dark .sf-c-springgreen\:100\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 100%) }
 
-html[data-theme='dark'] .sf-c-springgreen, html.dark .sf-c-springgreen { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen)) }
-html[data-theme='dark'] .sf-c-springgreen\:0, html.dark .sf-c-springgreen\:0 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-100)) }
-html[data-theme='dark'] .sf-c-springgreen\:10, html.dark .sf-c-springgreen\:10 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-90)) }
-html[data-theme='dark'] .sf-c-springgreen\:20, html.dark .sf-c-springgreen\:20 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-80)) }
-html[data-theme='dark'] .sf-c-springgreen\:30, html.dark .sf-c-springgreen\:30 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-70)) }
-html[data-theme='dark'] .sf-c-springgreen\:40, html.dark .sf-c-springgreen\:40 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-60)) }
-html[data-theme='dark'] .sf-c-springgreen\:50, html.dark .sf-c-springgreen\:50 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-50)) }
-html[data-theme='dark'] .sf-c-springgreen\:60, html.dark .sf-c-springgreen\:60 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-40)) }
-html[data-theme='dark'] .sf-c-springgreen\:70, html.dark .sf-c-springgreen\:70 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-30)) }
-html[data-theme='dark'] .sf-c-springgreen\:80, html.dark .sf-c-springgreen\:80 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-20)) }
-html[data-theme='dark'] .sf-c-springgreen\:90, html.dark .sf-c-springgreen\:90 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-10)) }
-html[data-theme='dark'] .sf-c-springgreen\:100, html.dark .sf-c-springgreen\:100 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-0)) }
+html[data-theme='dark'] .sf-c-txt-springgreen, html.dark .sf-c-txt-springgreen { color: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:0, html.dark .sf-c-txt-springgreen\:0 { color: hsl(150, 100%, 100%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:10, html.dark .sf-c-txt-springgreen\:10 { color: hsl(150, 100%, 90%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:20, html.dark .sf-c-txt-springgreen\:20 { color: hsl(150, 100%, 80%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:30, html.dark .sf-c-txt-springgreen\:30 { color: hsl(150, 100%, 70%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:40, html.dark .sf-c-txt-springgreen\:40 { color: hsl(150, 100%, 60%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:50, html.dark .sf-c-txt-springgreen\:50 { color: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:60, html.dark .sf-c-txt-springgreen\:60 { color: hsl(150, 100%, 40%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:70, html.dark .sf-c-txt-springgreen\:70 { color: hsl(150, 100%, 30%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:80, html.dark .sf-c-txt-springgreen\:80 { color: hsl(150, 100%, 20%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:90, html.dark .sf-c-txt-springgreen\:90 { color: hsl(150, 100%, 10%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:100, html.dark .sf-c-txt-springgreen\:100 { color: hsl(150, 100%, 0%) }
 
-html[data-theme='dark'] .sf-c-springgreen\:dark, html.dark .sf-c-springgreen\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen)) }
-html[data-theme='dark'] .sf-c-springgreen\:0\:dark, html.dark .sf-c-springgreen\:0\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-100)) }
-html[data-theme='dark'] .sf-c-springgreen\:10\:dark, html.dark .sf-c-springgreen\:10\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-90)) }
-html[data-theme='dark'] .sf-c-springgreen\:20\:dark, html.dark .sf-c-springgreen\:20\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-80)) }
-html[data-theme='dark'] .sf-c-springgreen\:30\:dark, html.dark .sf-c-springgreen\:30\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-70)) }
-html[data-theme='dark'] .sf-c-springgreen\:40\:dark, html.dark .sf-c-springgreen\:40\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-60)) }
-html[data-theme='dark'] .sf-c-springgreen\:50\:dark, html.dark .sf-c-springgreen\:50\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-50)) }
-html[data-theme='dark'] .sf-c-springgreen\:60\:dark, html.dark .sf-c-springgreen\:60\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-40)) }
-html[data-theme='dark'] .sf-c-springgreen\:70\:dark, html.dark .sf-c-springgreen\:70\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-30)) }
-html[data-theme='dark'] .sf-c-springgreen\:80\:dark, html.dark .sf-c-springgreen\:80\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-20)) }
-html[data-theme='dark'] .sf-c-springgreen\:90\:dark, html.dark .sf-c-springgreen\:90\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-10)) }
-html[data-theme='dark'] .sf-c-springgreen\:100\:dark, html.dark .sf-c-springgreen\:100\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-0)) }
-
-html[data-theme='dark'] .sf-c-txt-springgreen, html.dark .sf-c-txt-springgreen { color: hsl(var(--sf-c-txt-springgreen)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:0, html.dark .sf-c-txt-springgreen\:0 { color: hsl(var(--sf-c-txt-springgreen-0)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:10, html.dark .sf-c-txt-springgreen\:10 { color: hsl(var(--sf-c-txt-springgreen-10)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:20, html.dark .sf-c-txt-springgreen\:20 { color: hsl(var(--sf-c-txt-springgreen-20)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:30, html.dark .sf-c-txt-springgreen\:30 { color: hsl(var(--sf-c-txt-springgreen-30)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:40, html.dark .sf-c-txt-springgreen\:40 { color: hsl(var(--sf-c-txt-springgreen-40)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:50, html.dark .sf-c-txt-springgreen\:50 { color: hsl(var(--sf-c-txt-springgreen-50)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:60, html.dark .sf-c-txt-springgreen\:60 { color: hsl(var(--sf-c-txt-springgreen-60)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:70, html.dark .sf-c-txt-springgreen\:70 { color: hsl(var(--sf-c-txt-springgreen-70)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:80, html.dark .sf-c-txt-springgreen\:80 { color: hsl(var(--sf-c-txt-springgreen-80)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:90, html.dark .sf-c-txt-springgreen\:90 { color: hsl(var(--sf-c-txt-springgreen-90)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:100, html.dark .sf-c-txt-springgreen\:100 { color: hsl(var(--sf-c-txt-springgreen-100)) }
-
-html[data-theme='dark'] .sf-c-txt-springgreen\:dark, html.dark .sf-c-txt-springgreen\:dark { color: hsl(var(--sf-c-txt-springgreen)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:0\:dark, html.dark .sf-c-txt-springgreen\:0\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-0)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:10\:dark, html.dark .sf-c-txt-springgreen\:10\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-10)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:20\:dark, html.dark .sf-c-txt-springgreen\:20\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-20)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:30\:dark, html.dark .sf-c-txt-springgreen\:30\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-30)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:40\:dark, html.dark .sf-c-txt-springgreen\:40\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-40)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:50\:dark, html.dark .sf-c-txt-springgreen\:50\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-50)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:60\:dark, html.dark .sf-c-txt-springgreen\:60\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-60)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:70\:dark, html.dark .sf-c-txt-springgreen\:70\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-70)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:80\:dark, html.dark .sf-c-txt-springgreen\:80\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-80)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:90\:dark, html.dark .sf-c-txt-springgreen\:90\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-90)) }
-html[data-theme='dark'] .sf-c-txt-springgreen\:100\:dark, html.dark .sf-c-txt-springgreen\:100\:dark { color: hsl(var(--sf-dark-c-txt-springgreen-100)) }
-
-html.var[data-theme='dark'] .sf-c-springgreen, html.var.dark .sf-c-springgreen { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:0, html.var.dark .sf-c-springgreen\:0 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 100%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:10, html.var.dark .sf-c-springgreen\:10 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:20, html.var.dark .sf-c-springgreen\:20 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:30, html.var.dark .sf-c-springgreen\:30 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:40, html.var.dark .sf-c-springgreen\:40 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:50, html.var.dark .sf-c-springgreen\:50 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:60, html.var.dark .sf-c-springgreen\:60 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:70, html.var.dark .sf-c-springgreen\:70 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 30%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:80, html.var.dark .sf-c-springgreen\:80 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:90, html.var.dark .sf-c-springgreen\:90 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:100, html.var.dark .sf-c-springgreen\:100 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
-
-html.var[data-theme='dark'] .sf-c-springgreen\:dark, html.var.dark .sf-c-springgreen\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:0\:dark, html.var.dark .sf-c-springgreen\:0\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 100%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:10\:dark, html.var.dark .sf-c-springgreen\:10\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:20\:dark, html.var.dark .sf-c-springgreen\:20\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:30\:dark, html.var.dark .sf-c-springgreen\:30\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:40\:dark, html.var.dark .sf-c-springgreen\:40\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:50\:dark, html.var.dark .sf-c-springgreen\:50\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:60\:dark, html.var.dark .sf-c-springgreen\:60\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:70\:dark, html.var.dark .sf-c-springgreen\:70\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 30%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:80\:dark, html.var.dark .sf-c-springgreen\:80\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:90\:dark, html.var.dark .sf-c-springgreen\:90\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
-html.var[data-theme='dark'] .sf-c-springgreen\:100\:dark, html.var.dark .sf-c-springgreen\:100\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
-
-html.var[data-theme='dark'] .sf-c-txt-springgreen, html.dark .sf-c-txt-springgreen { color: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:0, html.dark .sf-c-txt-springgreen\:0 { color: hsl(150, 100%, 0%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:10, html.dark .sf-c-txt-springgreen\:10 { color: hsl(150, 100%, 10%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:20, html.dark .sf-c-txt-springgreen\:20 { color: hsl(150, 100%, 20%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:30, html.dark .sf-c-txt-springgreen\:30 { color: hsl(150, 100%, 30%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:40, html.dark .sf-c-txt-springgreen\:40 { color: hsl(150, 100%, 40%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:50, html.dark .sf-c-txt-springgreen\:50 { color: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:60, html.dark .sf-c-txt-springgreen\:60 { color: hsl(150, 100%, 60%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:70, html.dark .sf-c-txt-springgreen\:70 { color: hsl(150, 100%, 70%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:80, html.dark .sf-c-txt-springgreen\:80 { color: hsl(150, 100%, 80%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:90, html.dark .sf-c-txt-springgreen\:90 { color: hsl(150, 100%, 90%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:100, html.dark .sf-c-txt-springgreen\:100 { color: hsl(150, 100%, 100%) }
-
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:dark, html.dark .sf-c-txt-springgreen\:dark { color: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:0\:dark, html.dark .sf-c-txt-springgreen\:0\:dark { color: hsl(150, 100%, 0%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:10\:dark, html.dark .sf-c-txt-springgreen\:10\:dark { color: hsl(150, 100%, 10%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:20\:dark, html.dark .sf-c-txt-springgreen\:20\:dark { color: hsl(150, 100%, 20%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:30\:dark, html.dark .sf-c-txt-springgreen\:30\:dark { color: hsl(150, 100%, 30%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:40\:dark, html.dark .sf-c-txt-springgreen\:40\:dark { color: hsl(150, 100%, 40%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:50\:dark, html.dark .sf-c-txt-springgreen\:50\:dark { color: hsl(150, 100%, 50%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:60\:dark, html.dark .sf-c-txt-springgreen\:60\:dark { color: hsl(150, 100%, 60%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:70\:dark, html.dark .sf-c-txt-springgreen\:70\:dark { color: hsl(150, 100%, 70%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:80\:dark, html.dark .sf-c-txt-springgreen\:80\:dark { color: hsl(150, 100%, 80%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:90\:dark, html.dark .sf-c-txt-springgreen\:90\:dark { color: hsl(150, 100%, 90%) }
-html.var[data-theme='dark'] .sf-c-txt-springgreen\:100\:dark, html.dark .sf-c-txt-springgreen\:100\:dark { color: hsl(150, 100%, 100%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:st, html.dark .sf-c-txt-springgreen\:st { color: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:0\:st, html.dark .sf-c-txt-springgreen\:0\:st { color: hsl(150, 100%, 0%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:10\:st, html.dark .sf-c-txt-springgreen\:10\:st { color: hsl(150, 100%, 10%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:20\:st, html.dark .sf-c-txt-springgreen\:20\:st { color: hsl(150, 100%, 20%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:30\:st, html.dark .sf-c-txt-springgreen\:30\:st { color: hsl(150, 100%, 30%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:40\:st, html.dark .sf-c-txt-springgreen\:40\:st { color: hsl(150, 100%, 40%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:50\:st, html.dark .sf-c-txt-springgreen\:50\:st { color: hsl(150, 100%, 50%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:60\:st, html.dark .sf-c-txt-springgreen\:60\:st { color: hsl(150, 100%, 60%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:70\:st, html.dark .sf-c-txt-springgreen\:70\:st { color: hsl(150, 100%, 70%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:80\:st, html.dark .sf-c-txt-springgreen\:80\:st { color: hsl(150, 100%, 80%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:90\:st, html.dark .sf-c-txt-springgreen\:90\:st { color: hsl(150, 100%, 90%) }
+html[data-theme='dark'] .sf-c-txt-springgreen\:100\:st, html.dark .sf-c-txt-springgreen\:100\:st { color: hsl(150, 100%, 100%) }
 
 @media (prefers-color-scheme: dark) {
-  html[data-theme='auto'] .sf-c-springgreen, html.auto .sf-c-springgreen { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen)) }
-  html[data-theme='auto'] .sf-c-springgreen\:0, html.auto .sf-c-springgreen\:0 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-100)) }
-  html[data-theme='auto'] .sf-c-springgreen\:10, html.auto .sf-c-springgreen\:10 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-90)) }
-  html[data-theme='auto'] .sf-c-springgreen\:20, html.auto .sf-c-springgreen\:20 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-80)) }
-  html[data-theme='auto'] .sf-c-springgreen\:30, html.auto .sf-c-springgreen\:30 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-70)) }
-  html[data-theme='auto'] .sf-c-springgreen\:40, html.auto .sf-c-springgreen\:40 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-60)) }
-  html[data-theme='auto'] .sf-c-springgreen\:50, html.auto .sf-c-springgreen\:50 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-50)) }
-  html[data-theme='auto'] .sf-c-springgreen\:60, html.auto .sf-c-springgreen\:60 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-40)) }
-  html[data-theme='auto'] .sf-c-springgreen\:70, html.auto .sf-c-springgreen\:70 { color: hsl(var(--sf-dark-c-txt-springgreen-10)); background: hsl(var(--sf-dark-c-springgreen-30)) }
-  html[data-theme='auto'] .sf-c-springgreen\:80, html.auto .sf-c-springgreen\:80 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-20)) }
-  html[data-theme='auto'] .sf-c-springgreen\:90, html.auto .sf-c-springgreen\:90 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-10)) }
-  html[data-theme='auto'] .sf-c-springgreen\:100, html.auto .sf-c-springgreen\:100 { color: hsl(var(--sf-dark-c-txt-springgreen-90)); background: hsl(var(--sf-dark-c-springgreen-0)) }
+  html[data-theme='auto'] .sf-c-springgreen, html.auto .sf-c-springgreen { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-springgreen\:0, html.auto .sf-c-springgreen\:0 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 100%) }
+  html[data-theme='auto'] .sf-c-springgreen\:10, html.auto .sf-c-springgreen\:10 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
+  html[data-theme='auto'] .sf-c-springgreen\:20, html.auto .sf-c-springgreen\:20 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
+  html[data-theme='auto'] .sf-c-springgreen\:30, html.auto .sf-c-springgreen\:30 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
+  html[data-theme='auto'] .sf-c-springgreen\:40, html.auto .sf-c-springgreen\:40 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
+  html[data-theme='auto'] .sf-c-springgreen\:50, html.auto .sf-c-springgreen\:50 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-springgreen\:60, html.auto .sf-c-springgreen\:60 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
+  html[data-theme='auto'] .sf-c-springgreen\:70, html.auto .sf-c-springgreen\:70 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 30%) }
+  html[data-theme='auto'] .sf-c-springgreen\:80, html.auto .sf-c-springgreen\:80 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
+  html[data-theme='auto'] .sf-c-springgreen\:90, html.auto .sf-c-springgreen\:90 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
+  html[data-theme='auto'] .sf-c-springgreen\:100, html.auto .sf-c-springgreen\:100 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
 
-  html[data-theme='auto'] .sf-c-springgreen\:dark, html.auto .sf-c-springgreen\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen)) }
-  html[data-theme='auto'] .sf-c-springgreen\:0\:dark, html.auto .sf-c-springgreen\:0\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-100)) }
-  html[data-theme='auto'] .sf-c-springgreen\:10\:dark, html.auto .sf-c-springgreen\:10\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-90)) }
-  html[data-theme='auto'] .sf-c-springgreen\:20\:dark, html.auto .sf-c-springgreen\:20\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-80)) }
-  html[data-theme='auto'] .sf-c-springgreen\:30\:dark, html.auto .sf-c-springgreen\:30\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-70)) }
-  html[data-theme='auto'] .sf-c-springgreen\:40\:dark, html.auto .sf-c-springgreen\:40\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-60)) }
-  html[data-theme='auto'] .sf-c-springgreen\:50\:dark, html.auto .sf-c-springgreen\:50\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-50)) }
-  html[data-theme='auto'] .sf-c-springgreen\:60\:dark, html.auto .sf-c-springgreen\:60\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-40)) }
-  html[data-theme='auto'] .sf-c-springgreen\:70\:dark, html.auto .sf-c-springgreen\:70\:dark { color: hsl(var(--sf-c-txt-springgreen-10)); background: hsl(var(--sf-c-springgreen-30)) }
-  html[data-theme='auto'] .sf-c-springgreen\:80\:dark, html.auto .sf-c-springgreen\:80\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-20)) }
-  html[data-theme='auto'] .sf-c-springgreen\:90\:dark, html.auto .sf-c-springgreen\:90\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-10)) }
-  html[data-theme='auto'] .sf-c-springgreen\:100\:dark, html.auto .sf-c-springgreen\:100\:dark { color: hsl(var(--sf-c-txt-springgreen-90)); background: hsl(var(--sf-c-springgreen-0)) }
+  html[data-theme='auto'] .sf-c-springgreen\:st, html.auto .sf-c-springgreen\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-springgreen\:0\:st, html.auto .sf-c-springgreen\:0\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
+  html[data-theme='auto'] .sf-c-springgreen\:10\:st, html.auto .sf-c-springgreen\:10\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
+  html[data-theme='auto'] .sf-c-springgreen\:20\:st, html.auto .sf-c-springgreen\:20\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
+  html[data-theme='auto'] .sf-c-springgreen\:30\:st, html.auto .sf-c-springgreen\:30\:st { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 30%) }
+  html[data-theme='auto'] .sf-c-springgreen\:40\:st, html.auto .sf-c-springgreen\:40\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
+  html[data-theme='auto'] .sf-c-springgreen\:50\:st, html.auto .sf-c-springgreen\:50\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-springgreen\:60\:st, html.auto .sf-c-springgreen\:60\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
+  html[data-theme='auto'] .sf-c-springgreen\:70\:st, html.auto .sf-c-springgreen\:70\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
+  html[data-theme='auto'] .sf-c-springgreen\:80\:st, html.auto .sf-c-springgreen\:80\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
+  html[data-theme='auto'] .sf-c-springgreen\:90\:st, html.auto .sf-c-springgreen\:90\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
+  html[data-theme='auto'] .sf-c-springgreen\:100\:st, html.auto .sf-c-springgreen\:100\:st { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 100%) }
 
-  html[data-theme='auto'] .sf-c-txt-springgreen, html.auto .sf-c-txt-springgreen { color: hsl(var(--sf-c-txt-springgreen)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:0, html.auto .sf-c-txt-springgreen\:0 { color: hsl(var(--sf-c-txt-springgreen-0)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:10, html.auto .sf-c-txt-springgreen\:10 { color: hsl(var(--sf-c-txt-springgreen-10)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:20, html.auto .sf-c-txt-springgreen\:20 { color: hsl(var(--sf-c-txt-springgreen-20)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:30, html.auto .sf-c-txt-springgreen\:30 { color: hsl(var(--sf-c-txt-springgreen-30)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:40, html.auto .sf-c-txt-springgreen\:40 { color: hsl(var(--sf-c-txt-springgreen-40)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:50, html.auto .sf-c-txt-springgreen\:50 { color: hsl(var(--sf-c-txt-springgreen-50)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:60, html.auto .sf-c-txt-springgreen\:60 { color: hsl(var(--sf-c-txt-springgreen-60)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:70, html.auto .sf-c-txt-springgreen\:70 { color: hsl(var(--sf-c-txt-springgreen-70)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:80, html.auto .sf-c-txt-springgreen\:80 { color: hsl(var(--sf-c-txt-springgreen-80)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:90, html.auto .sf-c-txt-springgreen\:90 { color: hsl(var(--sf-c-txt-springgreen-90)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:100, html.auto .sf-c-txt-springgreen\:100 { color: hsl(var(--sf-c-txt-springgreen-100)) }
+  html[data-theme='auto'] .sf-c-txt-springgreen, html.auto .sf-c-txt-springgreen { color: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:0, html.auto .sf-c-txt-springgreen\:0 { color: hsl(150, 100%, 100%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:10, html.auto .sf-c-txt-springgreen\:10 { color: hsl(150, 100%, 90%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:20, html.auto .sf-c-txt-springgreen\:20 { color: hsl(150, 100%, 80%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:30, html.auto .sf-c-txt-springgreen\:30 { color: hsl(150, 100%, 70%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:40, html.auto .sf-c-txt-springgreen\:40 { color: hsl(150, 100%, 60%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:50, html.auto .sf-c-txt-springgreen\:50 { color: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:60, html.auto .sf-c-txt-springgreen\:60 { color: hsl(150, 100%, 40%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:70, html.auto .sf-c-txt-springgreen\:70 { color: hsl(150, 100%, 30%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:80, html.auto .sf-c-txt-springgreen\:80 { color: hsl(150, 100%, 20%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:90, html.auto .sf-c-txt-springgreen\:90 { color: hsl(150, 100%, 10%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:100, html.auto .sf-c-txt-springgreen\:100 { color: hsl(150, 100%, 0%) }
 
-  html[data-theme='auto'] .sf-c-txt-springgreen\:dark, html.auto .sf-c-txt-springgreen\:dark { color: hsl(var(--sf-c-txt-springgreen)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:0\:dark, html.auto .sf-c-txt-springgreen\:0\:dark { color: hsl(var(--sf-c-txt-springgreen-0)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:10\:dark, html.auto .sf-c-txt-springgreen\:10\:dark { color: hsl(var(--sf-c-txt-springgreen-10)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:20\:dark, html.auto .sf-c-txt-springgreen\:20\:dark { color: hsl(var(--sf-c-txt-springgreen-20)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:30\:dark, html.auto .sf-c-txt-springgreen\:30\:dark { color: hsl(var(--sf-c-txt-springgreen-30)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:40\:dark, html.auto .sf-c-txt-springgreen\:40\:dark { color: hsl(var(--sf-c-txt-springgreen-40)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:50\:dark, html.auto .sf-c-txt-springgreen\:50\:dark { color: hsl(var(--sf-c-txt-springgreen-50)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:60\:dark, html.auto .sf-c-txt-springgreen\:60\:dark { color: hsl(var(--sf-c-txt-springgreen-60)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:70\:dark, html.auto .sf-c-txt-springgreen\:70\:dark { color: hsl(var(--sf-c-txt-springgreen-70)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:80\:dark, html.auto .sf-c-txt-springgreen\:80\:dark { color: hsl(var(--sf-c-txt-springgreen-80)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:90\:dark, html.auto .sf-c-txt-springgreen\:90\:dark { color: hsl(var(--sf-c-txt-springgreen-90)) }
-  html[data-theme='auto'] .sf-c-txt-springgreen\:100\:dark, html.auto .sf-c-txt-springgreen\:100\:dark { color: hsl(var(--sf-c-txt-springgreen-100)) }
-
-  html.var[data-theme='auto'] .sf-c-springgreen, html.var.auto .sf-c-springgreen { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:0, html.var.auto .sf-c-springgreen\:0 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 100%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:10, html.var.auto .sf-c-springgreen\:10 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:20, html.var.auto .sf-c-springgreen\:20 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:30, html.var.auto .sf-c-springgreen\:30 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:40, html.var.auto .sf-c-springgreen\:40 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:50, html.var.auto .sf-c-springgreen\:50 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:60, html.var.auto .sf-c-springgreen\:60 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:70, html.var.auto .sf-c-springgreen\:70 { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:80, html.var.auto .sf-c-springgreen\:80 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:90, html.var.auto .sf-c-springgreen\:90 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:100, html.var.auto .sf-c-springgreen\:100 { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
-
-  html.var[data-theme='auto'] .sf-c-springgreen\:dark, html.var.auto .sf-c-springgreen\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:0\:dark, html.var.auto .sf-c-springgreen\:0\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 100%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:10\:dark, html.var.auto .sf-c-springgreen\:10\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:20\:dark, html.var.auto .sf-c-springgreen\:20\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:30\:dark, html.var.auto .sf-c-springgreen\:30\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:40\:dark, html.var.auto .sf-c-springgreen\:40\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:50\:dark, html.var.auto .sf-c-springgreen\:50\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:60\:dark, html.var.auto .sf-c-springgreen\:60\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:70\:dark, html.var.auto .sf-c-springgreen\:70\:dark { color: hsl(150, 100%, 10%); background: hsl(150, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:80\:dark, html.var.auto .sf-c-springgreen\:80\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:90\:dark, html.var.auto .sf-c-springgreen\:90\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-springgreen\:100\:dark, html.var.auto .sf-c-springgreen\:100\:dark { color: hsl(150, 100%, 90%); background: hsl(150, 100%, 0%) }
-
-  html.var[data-theme='auto'] .sf-c-txt-springgreen, html.var.auto .sf-c-txt-springgreen { color: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:0, html.var.auto .sf-c-txt-springgreen\:0 { color: hsl(150, 100%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:10, html.var.auto .sf-c-txt-springgreen\:10 { color: hsl(150, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:20, html.var.auto .sf-c-txt-springgreen\:20 { color: hsl(150, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:30, html.var.auto .sf-c-txt-springgreen\:30 { color: hsl(150, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:40, html.var.auto .sf-c-txt-springgreen\:40 { color: hsl(150, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:50, html.var.auto .sf-c-txt-springgreen\:50 { color: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:60, html.var.auto .sf-c-txt-springgreen\:60 { color: hsl(150, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:70, html.var.auto .sf-c-txt-springgreen\:70 { color: hsl(150, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:80, html.var.auto .sf-c-txt-springgreen\:80 { color: hsl(150, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:90, html.var.auto .sf-c-txt-springgreen\:90 { color: hsl(150, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:100, html.var.auto .sf-c-txt-springgreen\:100 { color: hsl(150, 100%, 100%) }
-
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:dark, html.var.auto .sf-c-txt-springgreen\:dark { color: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:0\:dark, html.var.auto .sf-c-txt-springgreen\:0\:dark { color: hsl(150, 100%, 0%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:10\:dark, html.var.auto .sf-c-txt-springgreen\:10\:dark { color: hsl(150, 100%, 10%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:20\:dark, html.var.auto .sf-c-txt-springgreen\:20\:dark { color: hsl(150, 100%, 20%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:30\:dark, html.var.auto .sf-c-txt-springgreen\:30\:dark { color: hsl(150, 100%, 30%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:40\:dark, html.var.auto .sf-c-txt-springgreen\:40\:dark { color: hsl(150, 100%, 40%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:50\:dark, html.var.auto .sf-c-txt-springgreen\:50\:dark { color: hsl(150, 100%, 50%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:60\:dark, html.var.auto .sf-c-txt-springgreen\:60\:dark { color: hsl(150, 100%, 60%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:70\:dark, html.var.auto .sf-c-txt-springgreen\:70\:dark { color: hsl(150, 100%, 70%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:80\:dark, html.var.auto .sf-c-txt-springgreen\:80\:dark { color: hsl(150, 100%, 80%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:90\:dark, html.var.auto .sf-c-txt-springgreen\:90\:dark { color: hsl(150, 100%, 90%) }
-  html.var[data-theme='auto'] .sf-c-txt-springgreen\:100\:dark, html.var.auto .sf-c-txt-springgreen\:100\:dark { color: hsl(150, 100%, 100%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:st, html.auto .sf-c-txt-springgreen\:st { color: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:0\:st, html.auto .sf-c-txt-springgreen\:0\:st { color: hsl(150, 100%, 0%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:10\:st, html.auto .sf-c-txt-springgreen\:10\:st { color: hsl(150, 100%, 10%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:20\:st, html.auto .sf-c-txt-springgreen\:20\:st { color: hsl(150, 100%, 20%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:30\:st, html.auto .sf-c-txt-springgreen\:30\:st { color: hsl(150, 100%, 30%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:40\:st, html.auto .sf-c-txt-springgreen\:40\:st { color: hsl(150, 100%, 40%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:50\:st, html.auto .sf-c-txt-springgreen\:50\:st { color: hsl(150, 100%, 50%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:60\:st, html.auto .sf-c-txt-springgreen\:60\:st { color: hsl(150, 100%, 60%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:70\:st, html.auto .sf-c-txt-springgreen\:70\:st { color: hsl(150, 100%, 70%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:80\:st, html.auto .sf-c-txt-springgreen\:80\:st { color: hsl(150, 100%, 80%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:90\:st, html.auto .sf-c-txt-springgreen\:90\:st { color: hsl(150, 100%, 90%) }
+  html[data-theme='auto'] .sf-c-txt-springgreen\:100\:st, html.auto .sf-c-txt-springgreen\:100\:st { color: hsl(150, 100%, 100%) }
 }
