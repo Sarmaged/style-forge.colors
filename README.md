@@ -8,6 +8,35 @@
 
 `Style-Forge.Colors` is an atomic CSS palette generator based on the HSL color model. Generate exactly the colors you need — programmatically, interactively, or by name. Perfect for design systems, theming, and scalable UIs.
 
+## 🚀 Quick Start
+
+```bash
+npx sf.color
+```
+
+or use the full name:
+
+```bash
+npx style-forge.colors
+```
+
+## ✨ What you can do
+* 🎨 Generate atomic HSL-based CSS color files
+* ⚙️ Run fully in terminal — no JavaScript or framework required
+* 🔁 Combine selected .css files into a palette
+* 📦 Use in Tailwind, Vue, React, Svelte, or raw CSS
+
+## 🎨 Supported Input Formats
+
+| Format | Example Input     | Example Output          |
+|--------|-------------------|--------------------------|
+| `HSL`  | `259 100 42`      | `hsl(259, 100%, 42%)`    |
+| `RGB`  | `120 200 255`     | `rgb(120, 200, 255)`     |
+| `HEX`  | `#FF00AA`         | `#ff00aa`                |
+
+You can use any of the above formats when generating a color CSS file.  
+The output includes a fully scoped, theme-aware CSS module for light, dark, and auto modes.
+
 ## 🎯 Modifier Suffixes
 
 Style-Forge Colors provides utility modifiers to fine-tune element behavior:

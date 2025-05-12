@@ -1,10 +1,11 @@
 {
   "name": "style-forge.colors",
-  "version": "2025.5.12",
-  "description": "Style-Forge Colors CLI: atomic HSL-based color palette generator and CSS module for scalable design systems.",
+  "version": "2025.5.13",
+  "description": "Style-Forge Colors: atomic HSL-based color palette generator and CSS module for scalable design systems.",
   "type": "module",
   "bin": {
-    "style-forge.colors": "./main.js"
+    "style-forge.colors": "./main.js",
+    "sf.colors": "./main.js"
   },
   "repository": {
     "type": "git",
@@ -15,16 +16,16 @@
   "keywords": [
     "style-forge",
     "colors",
-    "color palettes",
+    "color-palettes",
     "theme",
-    "HSL",
-    "CSS generator",
-    "frontend",
-    "design system",
-    "atomic CSS",
-    "CLI",
-    "UI",
-    "web design"
+    "hsl",
+    "css-generator",
+    "frontend-development",
+    "design-system",
+    "atomic-css",
+    "cli",
+    "web-design",
+    "ui"
   ],
   "dependencies": {
     "chalk": "^5.4.1",
