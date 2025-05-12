@@ -1,6 +1,12 @@
-!/package.json
-!/README.md
-!/src/**/*
-!/*.css
-
 *
+
+!main.js
+!package.json
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+
+!generators/
+!generators/**
+!utils/
+!utils/**

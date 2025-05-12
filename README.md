@@ -6,7 +6,20 @@
 ![npm](https://img.shields.io/npm/dm/style-forge.colors)
 ![build](https://github.com/Style-Forge/colors/actions/workflows/release.yml/badge.svg)
 
-`Style-Forge.Colors` package provides a comprehensive and customizable set of color palettes for your web applications. It includes predefined color schemes and the ability to create your own custom palettes, ensuring consistent and visually appealing designs across your projects.
+`Style-Forge.Colors` is an atomic CSS palette generator based on the HSL color model. Generate exactly the colors you need — programmatically, interactively, or by name. Perfect for design systems, theming, and scalable UIs.
+
+## 🎯 Modifier Suffixes
+
+Style-Forge Colors provides utility modifiers to fine-tune element behavior:
+
+| Suffix     | Meaning                             | Applies to |
+|------------|--------------------------------------|----------|
+| `:st`      | Static. Ignores theme-based changes. | `bg`, `txt` |
+| `:txt`     | Text color based on contrast logic.  | `txt` |
+| `:txt:st`  | Static text color.                   | `txt`    |
+| `:txt:rv`  | Reversed text (for strong contrast). | `txt`    |
+
+> Combine them like `.sf-c-180:100:50:txt:st` for consistent control across themes.
 
 ## Documentation
 
@@ -81,7 +94,7 @@ If you feel awesome and want to support us in a small way, please consider starr
     <td><a href="https://github.com/Style-Forge/colors" target="_blank">GitHub</a></td>
     <td><a href="https://npmjs.com/package/style-forge.colors" target="_blank">NPM</a></td>
     <td><img src="https://img.shields.io/npm/v/style-forge.colors" alt="npm"></td>
-    <td>Color palettes and styles for the project.</td>
+    <td>Atomic HSL-based color generator and palette engine.</td>
   </tr>
 </table>
 
