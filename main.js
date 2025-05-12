@@ -33,7 +33,10 @@ async function main() {
     },
   ])
 
-  if (mode === 'Exit') process.exit(0)
+  if (mode === '🚪 Exit') {
+    console.log('\n👋 Bye!')
+    process.exit(0)
+  }
 
   let format = config.defaultFormat || 'HSL'
 
