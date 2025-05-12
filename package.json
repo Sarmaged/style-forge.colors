@@ -1,9 +1,11 @@
 {
   "name": "style-forge.colors",
-  "version": "2025.2.5",
-  "description": "Style-Forge.Colors: customizable color palettes for consistent, visually appealing web designs.",
+  "version": "2025.5.12",
+  "description": "Style-Forge Colors CLI: atomic HSL-based color palette generator and CSS module for scalable design systems.",
   "type": "module",
-  "main": "colors.css",
+  "bin": {
+    "style-forge.colors": "./main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Style-Forge/colors.git"
@@ -15,27 +17,19 @@
     "colors",
     "color palettes",
     "theme",
-    "CSS-in-JS",
-    "color schemes",
-    "design",
-    "UI",
-    "web development",
+    "HSL",
+    "CSS generator",
     "frontend",
-    "JavaScript",
-    "react",
-    "custom colors",
-    "color management",
+    "design system",
+    "atomic CSS",
+    "CLI",
+    "UI",
     "web design"
   ],
-  "scripts": {
-    "build": "node builder.js"
-  },
-  "devDependencies": {
-    "postcss": "^8.4.39",
-    "postcss-combine-duplicated-selectors": "^10.0.3",
-    "postcss-discard-comments": "^7.0.1",
-    "postcss-import": "^16.1.0",
-    "postcss-minify": "^1.1.0"
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.6.1",
+    "json-stringify-pretty-compact": "^4.0.0"
   },
   "bugs": {
     "url": "https://github.com/Style-Forge/colors/issues"
