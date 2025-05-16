@@ -1,10 +1,10 @@
 *
 
+!CONTRIBUTING.md
+!LICENSE
 !main.js
 !package.json
 !README.md
-!LICENSE
-!CONTRIBUTING.md
 
 !generators/
 !generators/**

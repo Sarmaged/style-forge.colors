@@ -2,12 +2,13 @@ import { existsSync, writeFileSync, readFileSync } from 'fs'
 import { resolve } from 'path'
 import stringify from 'json-stringify-pretty-compact'
 
-const configPath = resolve('style-forge.colors.config.json')
+// Utils
+import { getProjectRoot } from './getProjectRoot.js'
 
-const defaultConfig = {
+const defaultColorsConfig = {
+  atomicSubDir: 'single',
   defaultFormat: 'HSL',
-  outputDir: 'src/assets/styles/colors',
-  atomicSubDir: "single",
+  dir: 'colors',
   paletteRanges: [
     [0, 0, [0]],
     [240, 100, [50]],
@@ -17,12 +18,37 @@ const defaultConfig = {
     [197, 71, [73]],
     [300, 76, [72]],
     [60, 100, [50]],
-  ]
+  ],
 }
+
+const configPath = resolve(getProjectRoot(), 'styleforgerc.json')
 
 if (!existsSync(configPath)) {
-  writeFileSync(configPath, stringify(defaultConfig))
-  console.log('🆕 Created style-forge.colors.config.json with default settings')
+  writeFileSync(
+    configPath,
+    stringify({
+      output: {
+        dir: 'src/assets/styles',
+        name: 'style-forge',
+      },
+      modules: {
+        colors: defaultColorsConfig,
+      },
+    }),
+  )
 }
 
-export const config = JSON.parse(readFileSync(configPath, 'utf-8'))
+const config = JSON.parse(readFileSync(configPath, 'utf-8'))
+
+config.modules = config.modules || {}
+config.modules.colors = config.modules.colors || {}
+
+const target = config.modules.colors
+
+for (const [key, value] of Object.entries(defaultColorsConfig)) {
+  if (!(key in target)) target[key] = value
+}
+
+writeFileSync(configPath, stringify(config, { maxLength: 100 }))
+
+export { config }

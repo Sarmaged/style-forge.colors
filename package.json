@@ -1,6 +1,6 @@
 {
   "name": "style-forge.colors",
-  "version": "2025.5.13",
+  "version": "2025.5.16",
   "description": "Style-Forge Colors: atomic HSL-based color palette generator and CSS module for scalable design systems.",
   "type": "module",
   "bin": {
@@ -38,5 +38,11 @@
   "homepage": "https://style-forge.github.io/colors/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
   }
 }
