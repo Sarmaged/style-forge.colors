@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import fs from 'fs'
-import path from 'path'
+import { readdirSync, existsSync, readFileSync, writeFileSync } from 'fs'
+import { resolve, join } from 'path'
 
 // packages
 import chalk from 'chalk'
@@ -12,10 +12,17 @@ import { config } from './utils/config.js'
 import { colors } from './utils/colors.js'
 import { RGBToHSL, HSLToRGB } from './utils/convert.js'
 import { handleSingleColor, handlePaletteRanges } from './utils/palette.js'
+import { getProjectRoot } from './utils/getProjectRoot.js'
+
+const projectRoot = getProjectRoot()
 
 async function main() {
   console.clear()
-  console.log('🎨 Welcome to Style-Forge Generator CLI')
+
+  console.log(`
+    ${chalk.hex('#00ffff').bold('  ⚡ STYLE-FORGE.COLORS ⚡  ')}
+    ${chalk.hex('#f0f').bold('⚛️ Atomic HSL-based generator')}
+  `)
 
   const { mode } = await inquirer.prompt([
     {
@@ -38,7 +45,7 @@ async function main() {
     process.exit(0)
   }
 
-  let format = config.defaultFormat || 'HSL'
+  let format = config.modules.colors.defaultFormat || 'HSL'
 
   if (mode === '🎨 Generate CSS file by') {
     const formatAnswer = await inquirer.prompt([
@@ -47,7 +54,7 @@ async function main() {
         name: 'format',
         message: 'Select input format:',
         choices: ['HSL', 'RGB', 'HEX'],
-        default: config.defaultFormat || 'HSL',
+        default: config.modules.colors.defaultFormat || 'HSL',
       },
     ])
     format = formatAnswer.format
@@ -84,7 +91,7 @@ async function main() {
           type: 'input',
           name: 'hex',
           message: 'HEX (e.g. #ff00aa):',
-          validate: v => /^#?[0-9A-Fa-f]{6}$/.test(v)
+          validate: v => /^#?[0-9A-Fa-f]{6}$/.test(v),
         },
       ])
       const hex = input.hex.replace('#', '')
@@ -101,17 +108,23 @@ async function main() {
     await handleSingleColor(H, S, L)
   }
   if (mode === '📐 Generate from paletteRanges (from config)') {
-    if (config.paletteRanges && Array.isArray(config.paletteRanges)) {
-      await handlePaletteRanges(config.paletteRanges)
+    if (config.modules.colors.paletteRanges && Array.isArray(config.modules.colors.paletteRanges)) {
+      await handlePaletteRanges(config.modules.colors.paletteRanges)
     } else {
-      console.log('⚠️  No paletteRanges found in config.')
+      console.log('⚠️  No paletteRanges found in config.modules.colors.paletteRanges')
     }
   }
   if (mode === '🌈 Generate full palette for H / S range') {
     const { h, s, step } = await inquirer.prompt([
       { type: 'input', name: 'h', message: 'Hue (0–360):', validate: v => !isNaN(v) && v >= 0 && v <= 360 },
       { type: 'input', name: 's', message: 'Saturation (0–100):', validate: v => !isNaN(v) && v >= 0 && v <= 100 },
-      { type: 'input', name: 'step', message: 'Step for Lightness (1–100):', default: 5, validate: v => !isNaN(v) && v > 0 && v <= 100 }
+      {
+        type: 'input',
+        name: 'step',
+        message: 'Step for Lightness (1–100):',
+        default: 5,
+        validate: v => !isNaN(v) && v > 0 && v <= 100,
+      },
     ])
     const H = parseInt(h)
     const S = parseInt(s)
@@ -153,24 +166,23 @@ async function main() {
     }
   }
   if (mode === '🧩 Combine CSS files') {
-    const outputDir = path.resolve(config.outputDir)
-    const srcDir = path.resolve(config.outputDir, config.atomicSubDir)
+    const outputDir = resolve(projectRoot, config.output.dir, config.modules.colors.dir)
+    const srcDir = resolve(outputDir, config.modules.colors.atomicSubDir)
 
-    if (!fs.existsSync(srcDir)) {
+    if (!existsSync(srcDir)) {
       console.log(`❌ Folder "${srcDir}" not found.`)
       return
     }
 
     const replace = x => x.replace('.css', '').split('.').map(Number)
 
-    const allFiles = fs
-    .readdirSync(srcDir)
-    .filter(name => name.endsWith('.css') && !name.startsWith('combined'))
-    .sort((a, b) => {
-      const [ha, sa, la] = replace(a)
-      const [hb, sb, lb] = replace(b)
-      return ha - hb || sa - sb || la - lb
-    })
+    const allFiles = readdirSync(srcDir)
+      .filter(name => name.endsWith('.css') && !name.startsWith('combined'))
+      .sort((a, b) => {
+        const [ha, sa, la] = replace(a)
+        const [hb, sb, lb] = replace(b)
+        return ha - hb || sa - sb || la - lb
+      })
 
     if (allFiles.length === 0) {
       console.log(`❌ No .css files found in "${srcDir}" — nothing to combine.`)
@@ -207,11 +219,10 @@ async function main() {
         validate: input => {
           if (!input.trim()) return true
           const indexes = input.split(',').map(i => parseInt(i.trim(), 10))
-          const isValid = indexes.length === selected.length &&
-            indexes.every(i => i > 0 && i <= selected.length)
+          const isValid = indexes.length === selected.length && indexes.every(i => i > 0 && i <= selected.length)
           return isValid || 'Enter valid sequence using all indexes (e.g. 2,1,3)'
-        }
-      }
+        },
+      },
     ])
 
     let orderedFiles = selected
@@ -232,31 +243,26 @@ async function main() {
       },
     ])
 
-    const targetPath = path.join(outputDir, `${name}.css`)
+    const targetPath = join(outputDir, `${name}.css`)
     let combined = ''
 
     for (const file of orderedFiles) {
-      const content = fs.readFileSync(path.join(srcDir, file), 'utf-8')
+      const content = readFileSync(join(srcDir, file), 'utf-8')
       combined += `/* ${file} */\n` + content + '\n\n'
     }
 
-    fs.writeFileSync(targetPath, combined)
+    writeFileSync(targetPath, combined)
     console.log(`✅ Combined ${orderedFiles.length} files into ${name}.css`)
     console.log(`📦 Size: ${(Buffer.byteLength(combined) / 1024).toFixed(2)} KB`)
   }
 }
 
-(async function loop() {
-  while (true) {
-    try {
-      await main()
-    } catch (err) {
-      if (err?.isTtyError || err?.message?.includes('SIGINT') || err.name === 'ExitPromptError') {
-        console.log('\n👋 Bye!')
-        break
-      }
-      console.error('❌ Unhandled error:', err)
-      break
-    }
+main().catch(err => {
+  if (err?.isTtyError || err?.message?.includes('SIGINT') || err.name === 'ExitPromptError') {
+    console.log('\n👋 Bye!\n')
+    process.exit(0)
   }
-})()
+
+  console.error('\n❌ Unhandled error:', err)
+  process.exit(1)
+})

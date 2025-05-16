@@ -6,6 +6,7 @@ node_modules/
 
 .DS_Store
 
+!.prettierrc.json
 !.editorconfig
 !CONTRIBUTING.md
 !LICENSE
