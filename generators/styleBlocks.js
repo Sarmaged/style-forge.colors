@@ -27,6 +27,9 @@ export function generateSingleColorCSS(H, S, L) {
   // Text
   lines.push(`${SELECTOR}\\:txt, ${SELECTOR}\\:txt\\:st, ${SELECTOR}\\:txt\\:rv { color: ${HSL} }`)
 
+  // Border
+  lines.push(`${SELECTOR}\\:bd, ${SELECTOR}\\:bd\\:st, ${SELECTOR}\\:bd\\:rv { border-color: ${HSL} }`)
+
   lines.push('')
 
   // dark
@@ -35,6 +38,9 @@ export function generateSingleColorCSS(H, S, L) {
   lines.push(`html[data-theme='dark'] ${SELECTOR}\\:txt, html.dark ${SELECTOR}\\:txt { color: hsl(${H}, ${S}%, ${90}%) }`)
   lines.push(`html[data-theme='dark'] ${SELECTOR}\\:txt\\:st, html.dark ${SELECTOR}\\:txt\\:st { color: ${HSL} }`)
   lines.push(`html[data-theme='dark'] ${SELECTOR}\\:txt\\:rv, html.dark ${SELECTOR}\\:txt\\:rv { color: hsl(${H}, ${S}%, ${10}%) }`)
+  lines.push(`html[data-theme='dark'] ${SELECTOR}\\:bd, html.dark ${SELECTOR}\\:bd { border-color: hsl(${H}, ${S}%, ${90}%) }`)
+  lines.push(`html[data-theme='dark'] ${SELECTOR}\\:bd\\:st, html.dark ${SELECTOR}\\:bd\\:st { border-color: ${HSL} }`)
+  lines.push(`html[data-theme='dark'] ${SELECTOR}\\:bd\\:rv, html.dark ${SELECTOR}\\:bd\\:rv { border-color: hsl(${H}, ${S}%, ${10}%) }`)
 
   lines.push('')
 
@@ -45,6 +51,9 @@ export function generateSingleColorCSS(H, S, L) {
   lines.push(`  html[data-theme='auto'] ${SELECTOR}\\:txt, html.auto ${SELECTOR}\\:txt { color: hsl(${H}, ${S}%, ${90}%) }`)
   lines.push(`  html[data-theme='auto'] ${SELECTOR}\\:txt\\:st, html.auto ${SELECTOR}\\:txt\\:st { color: ${HSL} }`)
   lines.push(`  html[data-theme='auto'] ${SELECTOR}\\:txt\\:rv, html.auto ${SELECTOR}\\:txt\\:rv { color: hsl(${H}, ${S}%, ${10}%) }`)
+  lines.push(`  html[data-theme='auto'] ${SELECTOR}\\:bd, html.auto ${SELECTOR}\\:bd { border-color: hsl(${H}, ${S}%, ${90}%) }`)
+  lines.push(`  html[data-theme='auto'] ${SELECTOR}\\:bd\\:st, html.auto ${SELECTOR}\\:bd\\:st { border-color: ${HSL} }`)
+  lines.push(`  html[data-theme='auto'] ${SELECTOR}\\:bd\\:rv, html.auto ${SELECTOR}\\:bd\\:rv { border-color: hsl(${H}, ${S}%, ${10}%) }`)
   lines.push(`}`)
 
   return lines.join('\n')
