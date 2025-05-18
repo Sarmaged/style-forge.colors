@@ -1,6 +1,6 @@
 {
   "name": "style-forge.colors",
-  "version": "2025.5.16",
+  "version": "2025.5.18",
   "description": "Style-Forge Colors: atomic HSL-based color palette generator and CSS module for scalable design systems.",
   "type": "module",
   "bin": {

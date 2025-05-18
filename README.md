@@ -28,11 +28,11 @@ npx style-forge.colors
 
 ## 🎨 Supported Input Formats
 
-| Format | Example Input     | Example Output          |
-|--------|-------------------|--------------------------|
-| `HSL`  | `259 100 42`      | `hsl(259, 100%, 42%)`    |
-| `RGB`  | `120 200 255`     | `rgb(120, 200, 255)`     |
-| `HEX`  | `#FF00AA`         | `#ff00aa`                |
+| Format | Example Input | Example Output        |
+|--------|---------------|-----------------------|
+| `HSL`  | `259 100 42`  | `hsl(259, 100%, 42%)` |
+| `RGB`  | `120 200 255` | `rgb(120, 200, 255)`  |
+| `HEX`  | `#FF00AA`     | `#ff00aa`             |
 
 You can use any of the above formats when generating a color CSS file.  
 The output includes a fully scoped, theme-aware CSS module for light, dark, and auto modes.
@@ -41,12 +41,16 @@ The output includes a fully scoped, theme-aware CSS module for light, dark, and 
 
 Style-Forge Colors provides utility modifiers to fine-tune element behavior:
 
-| Suffix     | Meaning                             | Applies to |
-|------------|--------------------------------------|----------|
-| `:st`      | Static. Ignores theme-based changes. | `bg`, `txt` |
-| `:txt`     | Text color based on contrast logic.  | `txt` |
-| `:txt:st`  | Static text color.                   | `txt`    |
-| `:txt:rv`  | Reversed text (for strong contrast). | `txt`    |
+| Suffix    | Meaning                                   | Applies to  |
+|-----------|-------------------------------------------|-------------|
+| `:var`    | Declares the HSL color as a CSS variable. | `universal` |
+| `:st`     | Static. Ignores theme-based changes.      | `bg`, `txt` |
+| `:txt`    | Text color based on contrast logic.       | `txt`       |
+| `:txt:st` | Static text color.                        | `txt`       |
+| `:txt:rv` | Reversed text (for strong contrast).      | `txt`       |
+| `:bd`     | Border color synced with base color.      | `bd`        |
+| `:bd:st`  | Static border color (not theme-aware).    | `bd`        |
+| `:bd:rv`  | Reversed border color for contrast.       | `bd`        |
 
 > Combine them like `.sf-c-180:100:50:txt:st` for consistent control across themes.
 
